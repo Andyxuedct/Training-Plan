@@ -5,6 +5,7 @@ Usage: python3 tools/build.py SRC_DIR
 SRC_DIR holds detailed-en.html, detailed-zh.html, v3-en.html, v3-zh.html
 (the full HTML of the four plan artifacts). Writes content/*.html and
 bumps the service-worker version so phones pick up the new plan.
+Also rebuilds calendar.ics, the Apple Calendar feed.
 """
 import pathlib
 import re
@@ -47,6 +48,8 @@ def main() -> None:
     text = re.sub(r"const VERSION = '[^']*';", f"const VERSION = 'v{time.strftime('%Y%m%d%H%M%S')}';", text)
     sw.write_text(text, encoding="utf-8")
     print("bumped sw.js version")
+    import calendar_feed
+    calendar_feed.main()
 
 
 if __name__ == "__main__":

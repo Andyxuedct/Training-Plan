@@ -25,3 +25,7 @@ python3 tools/build.py path/to/folder
 ```
 
 That rewrites `content/` and bumps the service-worker version. Commit and push to `main`; GitHub Pages republishes in a minute or two.
+
+## Apple Calendar
+
+`calendar.ics` is a subscribable feed with one all-day event per day of the HYROX plan (Chinese, then English, in the notes). On iPhone: Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar, and paste `https://andyxuedct.github.io/Training-Plan/calendar.ics`. The app's 📋 sheet also has a one-tap subscribe button. `tools/build.py` rebuilds the feed; `python3 tools/calendar_feed.py SITE_URL` rebuilds it on its own.

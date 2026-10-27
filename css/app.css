@@ -72,7 +72,7 @@ table.week tr.row.is-done .c-day::after{content:"✓";display:inline-block;margi
 .sheet-card h2{font-size:28px;margin:4px 0 6px}
 .sheet-card .sub{color:var(--mute);font-size:14px;margin-bottom:14px}
 .sheet-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 16px}
-.sheet-actions button,.sheet-actions label{appearance:none;border:0;background:var(--pill);color:var(--ink);border-radius:999px;
+.sheet-actions button,.sheet-actions label,.sheet-actions a{text-decoration:none;appearance:none;border:0;background:var(--pill);color:var(--ink);border-radius:999px;
   padding:10px 14px;font:600 13px/1 var(--text);cursor:pointer}
 .sheet-actions .primary{background:var(--ink);color:var(--canvas)}
 .rec{border-top:1px solid var(--hair);padding:10px 0;font-size:14px}

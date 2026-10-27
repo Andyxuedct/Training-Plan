@@ -14,7 +14,7 @@
       saved: '已保存 {t}', recTitle: '我的记录', recSub: '只存在这台手机里。想让我根据记录调整计划，点“复制给 Claude”，然后粘贴到对话里。',
       copy: '复制给 Claude', exportJ: '导出备份', importJ: '导入备份', close: '关闭', copied: '已复制', imported: '已导入 {n} 条记录',
       none: '还没有记录。在每天的课下面点“标记完成”或“记录”。', nDone: '已完成', nWeek: '本周完成', nLogged: '有记录',
-      updated: '计划已更新'
+      updated: '计划已更新', cal: '订阅到苹果日历'
     },
     en: {
       tabs: { detailed: 'HYROX plan', v3: 'Season plan v3' },
@@ -28,7 +28,7 @@
       saved: 'Saved {t}', recTitle: 'My log', recSub: 'Stored on this phone only. To have me adjust the plan, tap "Copy for Claude" and paste it into our chat.',
       copy: 'Copy for Claude', exportJ: 'Export backup', importJ: 'Import backup', close: 'Close', copied: 'Copied', imported: 'Imported {n} entries',
       none: 'No entries yet. Tap "Mark done" or "Log" under any day.', nDone: 'Done', nWeek: 'Done this week', nLogged: 'Logged',
-      updated: 'Plan updated'
+      updated: 'Plan updated', cal: 'Subscribe in Apple Calendar'
     }
   };
   var FIELDS = ['time', 'dist', 'pace', 'hr', 'rpe', 'note'];
@@ -271,7 +271,7 @@
       '<div class="stats"><div class="stat"><div class="n">' + nWeek + '</div><div class="l">' + t('nWeek') + '</div></div>' +
       '<div class="stat"><div class="n">' + nDone + '</div><div class="l">' + t('nDone') + '</div></div>' +
       '<div class="stat"><div class="n">' + list.length + '</div><div class="l">' + t('nLogged') + '</div></div></div>' +
-      '<div class="sheet-actions"><button class="primary" data-a="copy">' + t('copy') + '</button><button data-a="export">' + t('exportJ') +
+      '<div class="sheet-actions"><button class="primary" data-a="copy">' + t('copy') + '</button><a class="cal" href="' + calUrl() + '">📅 ' + t('cal') + '</a><button data-a="export">' + t('exportJ') +
       '</button><label>' + t('importJ') + '<input type="file" accept="application/json,.json" hidden></label><button data-close>' + t('close') + '</button></div>';
     html += list.length ? list.map(function (x) {
       return '<div class="rec"><b>' + x.date + (x.e.done ? ' ✓' : '') + '</b> ' + esc(x.e.title || '') + '<div class="rec-t">' + esc(summary(x.e)) + '</div></div>';
@@ -279,6 +279,7 @@
     document.getElementById('sheet-body').innerHTML = html;
     sheet.classList.add('open'); sheet.setAttribute('aria-hidden', 'false');
   }
+  function calUrl() { return 'webcal://' + location.host + location.pathname.replace(/[^/]*$/, '') + 'calendar.ics'; }
   function closeSheet() { sheet.classList.remove('open'); sheet.setAttribute('aria-hidden', 'true'); }
   document.getElementById('records').addEventListener('click', openSheet);
   sheet.addEventListener('click', function (ev) {
