@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build calendar.ics (a subscribable feed) from the detailed plan's day rows.
 
-One all-day event per day, English title, Chinese details then English.
+One all-day event per day, plain English title (no emoji or colons),
+Chinese details then English.
 UIDs are fixed per date, so when the plan changes the subscribed calendar
 updates the same events instead of adding new ones.
 """
@@ -11,7 +12,6 @@ import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-ICONS = {"t-gym": "🏋️", "t-hyrox": "🔥", "t-speed": "⚡", "t-easy": "🏃", "t-test": "🎯", "t-race": "🏁", "t-rest": "😴"}
 ROW = re.compile(r'<tr class="row (t-\w+)" data-date="([\d-]+)"[^>]*>(.*?)</tr>', re.S)
 CELL = lambda name: re.compile(r'<td class="c-' + name + r'[^"]*"[^>]*>(.*?)</td>', re.S)
 
@@ -75,7 +75,7 @@ def build(site_url: str) -> str:
         if "已错过" in z["session"]:  # the missed Monday before the plan started
             continue
         day = dt.date.fromisoformat(date)
-        title = f'{ICONS.get(z["kind"], "")} {e.get("session") or z["session"]}'.strip()
+        title = re.sub(r"\s*:\s+", " ", e.get("session") or z["session"]).strip()
         desc = []
         if z["time"]:
             desc.append(f'用时：{z["time"]}')
