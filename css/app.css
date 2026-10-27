@@ -1,0 +1,88 @@
+/* App shell on top of plan.css (the plan pages' own styles). */
+:root{--appbar-h:56px;--ok:#007d48;--ok-t:#e8f4ee}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ok:#34c472;--ok-t:#112619}}
+:root[data-theme="dark"]{--ok:#34c472;--ok-t:#112619}
+
+html,body{height:100%;margin:0;overflow:hidden;overscroll-behavior:none}
+body{background:var(--canvas)}
+body::before{display:none}
+
+/* top bar */
+.appbar{position:fixed;inset:0 0 auto;z-index:50;background:var(--band);color:var(--on-band);
+  padding:env(safe-area-inset-top,0px) max(12px,env(safe-area-inset-right,0px)) 0 max(12px,env(safe-area-inset-left,0px))}
+.appbar-in{height:var(--appbar-h);display:flex;align-items:center;gap:10px;max-width:1120px;margin:0 auto}
+.seg{position:relative;flex:1;min-width:0;display:grid;grid-template-columns:1fr 1fr;background:#2a2a2c;border-radius:999px;padding:3px}
+.seg button{position:relative;z-index:1;appearance:none;border:0;background:none;color:#cfcfd1;font:600 13px/1 var(--text);
+  padding:10px 6px;border-radius:999px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.seg button.on{color:#111}
+.seg .thumb{position:absolute;top:3px;bottom:3px;left:3px;width:calc(50% - 3px);background:#fff;border-radius:999px;
+  transform:translateX(calc(var(--p,0) * 100%));transition:transform .08s linear}
+.iconbtn{appearance:none;border:0;flex:none;height:38px;min-width:38px;padding:0 12px;border-radius:999px;background:#2a2a2c;
+  color:#fff;font:600 13px/1 var(--text);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:4px}
+.iconbtn .dim{color:#8a8a8c}
+
+/* panes: swipe left/right between the two plans */
+.pager{position:fixed;left:0;right:0;bottom:0;top:calc(var(--appbar-h) + env(safe-area-inset-top,0px));
+  display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.pager::-webkit-scrollbar{display:none}
+.pane{flex:0 0 100%;width:100%;height:100%;overflow-y:auto;overflow-x:hidden;scroll-snap-align:start;scroll-snap-stop:always;
+  -webkit-overflow-scrolling:touch;overscroll-behavior-y:contain;padding-bottom:env(safe-area-inset-bottom,0px)}
+.pane .bar{top:0}
+.pane .tbl{overscroll-behavior-x:contain}
+.loading{padding:48px 16px;text-align:center;color:var(--mute)}
+
+/* today card */
+.todaycard{background:var(--surface);border-bottom:1px solid var(--hair)}
+.todaycard .wrap{padding-block:14px;display:flex;align-items:center;gap:12px}
+.todaycard .tc-main{flex:1;min-width:0}
+.todaycard .tc-k{font:600 11px/1.2 var(--text);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.todaycard .tc-t{font:600 16px/1.35 var(--text);margin-top:4px}
+.todaycard .tc-t .chip{display:inline-block;margin:0 8px 0 0;vertical-align:1px}
+.todaycard .go{flex:none;appearance:none;border:0;background:var(--ink);color:var(--canvas);border-radius:999px;
+  padding:10px 14px;font:600 13px/1 var(--text);cursor:pointer}
+.todaycard.done .tc-t::after{content:" ✓";color:var(--ok)}
+
+/* log block inside each day row */
+.log{margin-top:14px;border-top:1px dashed var(--hair-strong);padding-top:12px}
+.log-top{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.done-btn{appearance:none;border:1.5px solid var(--hair-strong);background:var(--canvas);color:var(--ink);border-radius:999px;
+  padding:8px 14px;font:600 13px/1 var(--text);cursor:pointer}
+.done-btn[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:#fff}
+.log-toggle{appearance:none;border:0;background:none;color:var(--mute);font:500 13px/1 var(--text);padding:8px 4px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.log-sum{flex-basis:100%;font-size:13px;color:var(--charcoal);white-space:pre-wrap}
+.log-sum:empty{display:none}
+.log-form{display:none;margin-top:10px;gap:8px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.log.open .log-form{display:grid}
+.log.open .log-sum{display:none}
+.log-form label{display:grid;gap:4px;font:600 11px/1.2 var(--text);color:var(--mute);letter-spacing:.04em}
+.log-form label.full{grid-column:1/-1}
+.log-form input,.log-form textarea{width:100%;font:16px/1.4 var(--text);color:var(--ink);background:var(--canvas);
+  border:1px solid var(--hair-strong);border-radius:10px;padding:8px 10px}
+.log-form textarea{min-height:84px;resize:vertical}
+.log-saved{grid-column:1/-1;font-size:12px;color:var(--mute)}
+table.week tr.row.is-done .c-day::after{content:"✓";display:inline-block;margin-left:8px;width:20px;height:20px;border-radius:50%;
+  background:var(--ok);color:#fff;font:700 12px/20px var(--text);text-align:center;vertical-align:1px}
+
+/* records sheet */
+.sheet{position:fixed;inset:0;z-index:80;display:none}
+.sheet.open{display:block}
+.sheet-bg{position:absolute;inset:0;background:rgba(0,0,0,.45)}
+.sheet-card{position:absolute;left:0;right:0;bottom:0;max-height:86%;overflow:auto;background:var(--canvas);color:var(--ink);
+  border-radius:20px 20px 0 0;padding:18px max(16px,env(safe-area-inset-left,0px)) calc(20px + env(safe-area-inset-bottom,0px))}
+.sheet-card h2{font-size:28px;margin:4px 0 6px}
+.sheet-card .sub{color:var(--mute);font-size:14px;margin-bottom:14px}
+.sheet-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 16px}
+.sheet-actions button,.sheet-actions label{appearance:none;border:0;background:var(--pill);color:var(--ink);border-radius:999px;
+  padding:10px 14px;font:600 13px/1 var(--text);cursor:pointer}
+.sheet-actions .primary{background:var(--ink);color:var(--canvas)}
+.rec{border-top:1px solid var(--hair);padding:10px 0;font-size:14px}
+.rec b{font-weight:600}
+.rec .rec-t{white-space:pre-wrap;color:var(--charcoal);margin-top:2px}
+.stats{display:flex;gap:10px;flex-wrap:wrap}
+.stat{background:var(--surface);border-radius:14px;padding:10px 14px;min-width:96px}
+.stat .n{font:600 24px/1 var(--display)}
+.stat .l{font-size:12px;color:var(--mute);margin-top:4px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:90;
+  background:var(--ink);color:var(--canvas);border-radius:999px;padding:10px 16px;font:600 13px/1 var(--text);opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+@media (max-width:420px){.seg button{font-size:12px;padding:10px 4px}}

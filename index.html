@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Andy 训练计划</title>
+<meta name="description" content="Andy's HYROX Stockholm plan and 2026–27 season plan, in Chinese and English.">
+<meta name="theme-color" content="#111111">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="训练计划">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="css/plan.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="appbar">
+  <div class="appbar-in">
+    <div class="seg" role="tablist" id="seg">
+      <span class="thumb" aria-hidden="true"></span>
+      <button role="tab" data-doc="detailed" class="on" id="tab-detailed">HYROX 详细计划</button>
+      <button role="tab" data-doc="v3" id="tab-v3">赛季计划 v3</button>
+    </div>
+    <button class="iconbtn" id="lang" aria-label="切换语言 / Switch language"><span data-l="zh">中</span><span class="dim">/</span><span data-l="en">EN</span></button>
+    <button class="iconbtn" id="records" aria-label="记录">📋</button>
+  </div>
+</header>
+<main class="pager" id="pager">
+  <section class="pane" id="pane-detailed" data-doc="detailed"><div class="loading">…</div></section>
+  <section class="pane" id="pane-v3" data-doc="v3"><div class="loading">…</div></section>
+</main>
+<div class="sheet" id="sheet" aria-hidden="true">
+  <div class="sheet-bg" data-close></div>
+  <div class="sheet-card" role="dialog" aria-labelledby="sheet-h"><div id="sheet-body"></div></div>
+</div>
+<div class="toast" id="toast"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
