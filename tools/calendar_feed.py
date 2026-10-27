@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build calendar.ics (a subscribable feed) from the detailed plan's day rows.
 
-One all-day event per day, Chinese title, Chinese details then English.
+One all-day event per day, English title, Chinese details then English.
 UIDs are fixed per date, so when the plan changes the subscribed calendar
 updates the same events instead of adding new ones.
 """
@@ -67,22 +67,22 @@ def build(site_url: str) -> str:
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lines = [
         "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Andy//Training Plan//ZH", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-        "X-WR-CALNAME:Andy 训练计划", "X-WR-TIMEZONE:Europe/Stockholm",
+        "X-WR-CALNAME:Training Plan", "X-WR-TIMEZONE:Europe/Stockholm",
         "REFRESH-INTERVAL;VALUE=DURATION:PT6H", "X-PUBLISHED-TTL:PT6H",
     ]
     for date in sorted(zh):
         z, e = zh[date], en.get(date, {})
-        if "已错过" in z["session"]:
+        if "已错过" in z["session"]:  # the missed Monday before the plan started
             continue
         day = dt.date.fromisoformat(date)
-        title = f'{ICONS.get(z["kind"], "")} {z["session"]}'.strip()
+        title = f'{ICONS.get(z["kind"], "")} {e.get("session") or z["session"]}'.strip()
         desc = []
         if z["time"]:
             desc.append(f'用时：{z["time"]}')
         if z["details"]:
-            desc.append(z["details"])
+            desc.append(z["session"] + "\n" + z["details"])
         if e:
-            desc.append("—— English ——\n" + e["session"] + (f' ({e["time"]})' if e.get("time") else "") + ("\n" + e["details"] if e.get("details") else ""))
+            desc.append("—— English ——\n" + (f'Time: {e["time"]}\n' if e.get("time") else "") + e.get("details", ""))
         desc.append(site_url)
         lines += [
             "BEGIN:VEVENT",
