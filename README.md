@@ -2,7 +2,7 @@
 
 A small offline web app (PWA) with Andy's two plans: the HYROX Stockholm detailed plan (27 Oct to 11 Dec 2026) and the 2026–27 season plan v3. Each plan is in Chinese and English.
 
-Live site: https://andyxuedct.github.io/AndyTrainingPlan/
+Live site: https://andyxuedct.github.io/Training-Plan/
 
 ## On iPhone
 
