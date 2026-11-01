@@ -32,4 +32,4 @@ That rewrites `content/` and bumps the service-worker version. Commit and push t
 
 ## Sync to Claude
 
-The 📋 sheet has "Sync to Claude" and a "Note for Claude" box. Sync merges the phone's log and notes with `data/training-log.json` in the repository set under "Sync settings" (default `Andyxuedct/Training-Log`, a private repository so the log is not public) and commits it through the GitHub API, using a fine-grained token with Contents read/write on that repository. The token is stored only in the phone's browser storage. Claude reads `data/training-log.json` to re-plan.
+The 📋 sheet has "Sync to Claude" and a "Note for Claude" box. Sync merges the phone's log and notes with `data/training-log.json` in the repository set under "Sync settings" (default `Andyxuedct/Training-Plan`; the log is public there, which Andy chose on 1 Nov) and commits it through the GitHub API, using a fine-grained token with Contents read/write on that repository. The token is stored only in the phone's browser storage. Claude reads `data/training-log.json` to re-plan.
