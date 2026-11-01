@@ -86,3 +86,14 @@ table.week tr.row.is-done .c-day::after{content:"✓";display:inline-block;margi
   background:var(--ink);color:var(--canvas);border-radius:999px;padding:10px 16px;font:600 13px/1 var(--text);opacity:0;transition:opacity .2s;pointer-events:none}
 .toast.show{opacity:1}
 @media (max-width:420px){.seg button{font-size:12px;padding:10px 4px}}
+
+/* sync + notes */
+.sync-st{align-self:center;font-size:12.5px;color:var(--mute)}
+.note-box{display:grid;gap:8px;margin:4px 0 12px}
+.note-box label{font:600 13px/1.2 var(--text)}
+.note-box textarea,.sync-set input{width:100%;font:16px/1.4 var(--text);color:var(--ink);background:var(--canvas);border:1px solid var(--hair-strong);border-radius:10px;padding:8px 10px}
+.note-box textarea{min-height:72px;resize:vertical}
+.note-box button,.sync-set button{justify-self:start;appearance:none;border:0;background:var(--pill);color:var(--ink);border-radius:999px;padding:10px 14px;font:600 13px/1 var(--text);cursor:pointer}
+.sync-set{margin:4px 0 14px;font-size:14px}
+.sync-set summary{cursor:pointer;color:var(--mute);padding:6px 0}
+.sync-set label{display:grid;gap:4px;margin:8px 0;font:600 12px/1.2 var(--text);color:var(--mute)}

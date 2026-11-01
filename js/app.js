@@ -11,10 +11,13 @@
       phTime: '例：52:30', phDist: '例：8', phPace: '例：4:38 4:36 4:40 4:35', phHr: '例：168', phRpe: '例：7',
       phNoteGym: '例：上斜哑铃 2x26kg 4x8；划船 60kg 4x8；引体 5x8',
       phNote: '例：腿有点沉，最后一组掉速',
-      saved: '已保存 {t}', recTitle: '我的记录', recSub: '只存在这台手机里。想让我根据记录调整计划，点“复制给 Claude”，然后粘贴到对话里。',
+      saved: '已保存 {t}', recTitle: '我的记录', recSub: '记录先存在这台手机里。点“同步给 Claude”，记录和留言会存到 GitHub，我下次就能直接读到并调整计划。',
       copy: '复制给 Claude', exportJ: '导出备份', importJ: '导入备份', close: '关闭', copied: '已复制', imported: '已导入 {n} 条记录',
       none: '还没有记录。在每天的课下面点“标记完成”或“记录”。', nDone: '已完成', nWeek: '本周完成', nLogged: '有记录',
-      updated: '计划已更新', cal: '订阅到苹果日历'
+      updated: '计划已更新', cal: '订阅到苹果日历',
+      sync: '同步给 Claude', syncing: '同步中…', synced: '已同步 {t}', syncFail: '同步失败：{e}', neverSynced: '还没同步过',
+      syncSetup: '同步设置', tokenL: 'GitHub 令牌（只存在这台手机）', repoL: '保存到的仓库', saveSet: '保存设置', setSaved: '设置已保存', needToken: '先在下面的“同步设置”填好 GitHub 令牌',
+      noteH: '给 Claude 的留言', notePh: '例：这周腿很累；健身和功能性训练重复太多', noteAdd: '保存留言', noteSaved: '留言已保存，记得点同步'
     },
     en: {
       tabs: { detailed: 'HYROX plan', v3: 'Season plan v3' },
@@ -25,10 +28,13 @@
       phTime: 'e.g. 52:30', phDist: 'e.g. 8', phPace: 'e.g. 4:38 4:36 4:40 4:35', phHr: 'e.g. 168', phRpe: 'e.g. 7',
       phNoteGym: 'e.g. incline DB 2x26kg 4x8; row 60kg 4x8; pull-ups 5x8',
       phNote: 'e.g. legs heavy, last rep slowed',
-      saved: 'Saved {t}', recTitle: 'My log', recSub: 'Stored on this phone only. To have me adjust the plan, tap "Copy for Claude" and paste it into our chat.',
+      saved: 'Saved {t}', recTitle: 'My log', recSub: 'Saved on this phone first. Tap "Sync to Claude" to store your log and notes on GitHub, where I can read them next time and adjust the plan.',
       copy: 'Copy for Claude', exportJ: 'Export backup', importJ: 'Import backup', close: 'Close', copied: 'Copied', imported: 'Imported {n} entries',
       none: 'No entries yet. Tap "Mark done" or "Log" under any day.', nDone: 'Done', nWeek: 'Done this week', nLogged: 'Logged',
-      updated: 'Plan updated', cal: 'Subscribe in Apple Calendar'
+      updated: 'Plan updated', cal: 'Subscribe in Apple Calendar',
+      sync: 'Sync to Claude', syncing: 'Syncing…', synced: 'Synced {t}', syncFail: 'Sync failed: {e}', neverSynced: 'Not synced yet',
+      syncSetup: 'Sync settings', tokenL: 'GitHub token (kept on this phone only)', repoL: 'Save to repository', saveSet: 'Save settings', setSaved: 'Settings saved', needToken: 'Add a GitHub token under "Sync settings" first',
+      noteH: 'Note for Claude', notePh: 'e.g. legs tired this week; gym and functional work overlap too much', noteAdd: 'Save note', noteSaved: 'Note saved, remember to sync'
     }
   };
   var FIELDS = ['time', 'dist', 'pace', 'hr', 'rpe', 'note'];
@@ -46,6 +52,7 @@
   var lang = get('tp.lang', 'zh') === 'en' ? 'en' : 'zh';
   var doc = get('tp.doc', 'detailed') === 'v3' ? 'v3' : 'detailed';
   var logs = loadLogs();
+  var notes = (function () { try { return JSON.parse(get('tp.notes', '[]')) || []; } catch (e) { return []; } })();
   var today = iso(new Date());
   var pager = document.getElementById('pager');
   var seg = document.getElementById('seg');
@@ -260,7 +267,7 @@
     var list = entries().slice().reverse();
     return (lang === 'zh' ? '我的训练记录：\n' : 'My training log:\n') + list.map(function (x) {
       return x.date + (x.e.done ? ' ✓' : '') + ' ' + (x.e.title || '') + (summary(x.e) ? '\n  ' + summary(x.e).replace(/\n/g, '\n  ') : '');
-    }).join('\n');
+    }).join('\n') + (notes.length ? '\n\n' + (lang === 'zh' ? '留言：' : 'Notes:') + notes.map(function (n) { return '\n' + n.at.slice(0, 10) + ' ' + n.text; }).join('') : '');
   }
   function openSheet() {
     var list = entries();
@@ -271,8 +278,15 @@
       '<div class="stats"><div class="stat"><div class="n">' + nWeek + '</div><div class="l">' + t('nWeek') + '</div></div>' +
       '<div class="stat"><div class="n">' + nDone + '</div><div class="l">' + t('nDone') + '</div></div>' +
       '<div class="stat"><div class="n">' + list.length + '</div><div class="l">' + t('nLogged') + '</div></div></div>' +
-      '<div class="sheet-actions"><button class="primary" data-a="copy">' + t('copy') + '</button><a class="cal" href="' + calUrl() + '">📅 ' + t('cal') + '</a><button data-a="export">' + t('exportJ') +
+      '<div class="sheet-actions"><button class="primary" data-a="sync">⟳ ' + t('sync') + '</button><span class="sync-st" id="sync-st">' + syncStatus() + '</span></div>' +
+      '<div class="note-box"><label for="note-in">' + t('noteH') + '</label><textarea id="note-in" placeholder="' + esc(t('notePh')) + '"></textarea><button data-a="note">' + t('noteAdd') + '</button></div>' +
+      '<div class="sheet-actions"><button data-a="copy">' + t('copy') + '</button><a class="cal" href="' + calUrl() + '">📅 ' + t('cal') + '</a><button data-a="export">' + t('exportJ') +
       '</button><label>' + t('importJ') + '<input type="file" accept="application/json,.json" hidden></label><button data-close>' + t('close') + '</button></div>';
+    html += '<details class="sync-set"><summary>' + t('syncSetup') + '</summary><label>' + t('tokenL') + '<input id="set-token" type="password" autocomplete="off" value="' + esc(get('tp.token', '')) + '"></label>' +
+      '<label>' + t('repoL') + '<input id="set-repo" autocapitalize="off" value="' + esc(get('tp.repo', DEFAULT_REPO)) + '"></label><button data-a="saveset">' + t('saveSet') + '</button></details>';
+    html += notes.length ? notes.slice().reverse().map(function (n) {
+      return '<div class="rec"><b>💬 ' + esc(n.at.slice(0, 16).replace('T', ' ')) + '</b><div class="rec-t">' + esc(n.text) + '</div></div>';
+    }).join('') : '';
     html += list.length ? list.map(function (x) {
       return '<div class="rec"><b>' + x.date + (x.e.done ? ' ✓' : '') + '</b> ' + esc(x.e.title || '') + '<div class="rec-t">' + esc(summary(x.e)) + '</div></div>';
     }).join('') : '<p class="sub">' + t('none') + '</p>';
@@ -291,6 +305,17 @@
         var ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta); ta.select();
         try { document.execCommand('copy'); toast(t('copied')); } catch (e) { } ta.remove();
       });
+    } else if (a.dataset.a === 'sync') {
+      sync();
+    } else if (a.dataset.a === 'note') {
+      var ni = document.getElementById('note-in'), v = ni.value.trim();
+      if (!v) return;
+      notes.push({ id: Date.now().toString(36), at: new Date().toISOString(), text: v });
+      set('tp.notes', JSON.stringify(notes)); toast(t('noteSaved')); openSheet();
+    } else if (a.dataset.a === 'saveset') {
+      set('tp.token', document.getElementById('set-token').value.trim());
+      set('tp.repo', document.getElementById('set-repo').value.trim() || DEFAULT_REPO);
+      toast(t('setSaved'));
     } else if (a.dataset.a === 'export') {
       var blob = new Blob([JSON.stringify(logs, null, 2)], { type: 'application/json' });
       var u = URL.createObjectURL(blob), l = document.createElement('a');
@@ -310,6 +335,53 @@
       saveLogs(); closeSheet(); loadAll(); toast(fmt(t('imported'), { n: n }));
     }).catch(function () { });
   });
+
+  /* ---------- sync to GitHub (so Claude can read the log) ---------- */
+  var DEFAULT_REPO = 'Andyxuedct/Training-Plan';
+  var LOG_PATH = 'data/training-log.json';
+  function b64enc(str) { return btoa(unescape(encodeURIComponent(str))); }
+  function b64dec(b) { return decodeURIComponent(escape(atob(b.replace(/\s/g, '')))); }
+  function syncStatus() {
+    var at = get('tp.syncedAt', '');
+    return at ? fmt(t('synced'), { t: new Date(+at).toLocaleString(lang === 'zh' ? 'zh-CN' : 'en-GB', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) }) : t('neverSynced');
+  }
+  function merge(remote) {
+    var rl = (remote && remote.logs) || {};
+    Object.keys(rl).forEach(function (k) {
+      if (!logs[k] || (rl[k].updated || 0) > (logs[k].updated || 0)) logs[k] = rl[k];
+    });
+    var ids = {}; notes.forEach(function (n) { ids[n.id] = 1; });
+    ((remote && remote.notes) || []).forEach(function (n) { if (!ids[n.id]) notes.push(n); });
+    notes.sort(function (a, b) { return a.at < b.at ? -1 : 1; });
+    saveLogs(); set('tp.notes', JSON.stringify(notes));
+  }
+  var syncing = false;
+  function sync() {
+    var token = get('tp.token', ''), repo = get('tp.repo', DEFAULT_REPO);
+    if (!token) { toast(t('needToken')); var d = document.querySelector('.sync-set'); if (d) d.open = true; return; }
+    if (syncing) return; syncing = true;
+    var st = document.getElementById('sync-st'); if (st) st.textContent = t('syncing');
+    var api = 'https://api.github.com/repos/' + repo + '/contents/' + LOG_PATH;
+    var headers = { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' };
+    fetch(api + '?ref=main', { headers: headers, cache: 'no-store' }).then(function (r) {
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (file) {
+      if (file) merge(JSON.parse(b64dec(file.content)));
+      var body = { synced_at: new Date().toISOString(), logs: logs, notes: notes };
+      return fetch(api, {
+        method: 'PUT', headers: headers,
+        body: JSON.stringify({ message: 'Sync training log from app (' + today + ')', content: b64enc(JSON.stringify(body, null, 2) + '\n'), sha: file ? file.sha : undefined, branch: 'main' })
+      });
+    }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      set('tp.syncedAt', String(Date.now()));
+      toast(syncStatus()); openSheet(); loadAll();
+    }).catch(function (e) {
+      toast(fmt(t('syncFail'), { e: e.message })); if (st) st.textContent = fmt(t('syncFail'), { e: e.message });
+    }).then(function () { syncing = false; });
+  }
 
   /* ---------- language toggle ---------- */
   document.getElementById('lang').addEventListener('click', function () {

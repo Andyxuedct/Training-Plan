@@ -29,3 +29,7 @@ That rewrites `content/` and bumps the service-worker version. Commit and push t
 ## Apple Calendar
 
 `calendar.ics` is a subscribable feed with one all-day event per day of the HYROX plan (Chinese, then English, in the notes). On iPhone: Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar, and paste `https://andyxuedct.github.io/Training-Plan/calendar.ics`. The app's 📋 sheet also has a one-tap subscribe button. `tools/build.py` rebuilds the feed; `python3 tools/calendar_feed.py SITE_URL` rebuilds it on its own.
+
+## Sync to Claude
+
+The 📋 sheet has "Sync to Claude" and a "Note for Claude" box. Sync merges the phone's log and notes with `data/training-log.json` in the repository set under "Sync settings" (default `Andyxuedct/Training-Plan`) and commits it through the GitHub API, using a fine-grained token with Contents read/write on that repository. The token is stored only in the phone's browser storage. Claude reads `data/training-log.json` to re-plan.
