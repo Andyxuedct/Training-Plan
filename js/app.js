@@ -337,7 +337,7 @@
   });
 
   /* ---------- sync to GitHub (so Claude can read the log) ---------- */
-  var DEFAULT_REPO = 'Andyxuedct/Training-Plan';
+  var DEFAULT_REPO = 'Andyxuedct/Training-Log';
   var LOG_PATH = 'data/training-log.json';
   function b64enc(str) { return btoa(unescape(encodeURIComponent(str))); }
   function b64dec(b) { return decodeURIComponent(escape(atob(b.replace(/\s/g, '')))); }
