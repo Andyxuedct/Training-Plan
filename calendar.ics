@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:2026-10-27@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Intervals 4 x 1 km at T
@@ -30,7 +30,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:Easy 10 km + ankle/glute
@@ -62,7 +62,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-29@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:HYROX benchmark full race solo
@@ -103,7 +103,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Gym A + swim
@@ -150,7 +150,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Long run 12 km
@@ -177,96 +177,93 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Gym B
-DESCRIPTION:用时：105分钟\n\nB课\n热身（20分钟）：\n• 轻松
+DESCRIPTION:用时：90分钟\n\nB课\n热身（20分钟）：\n• 轻松
  划船或滑雪机：5分钟\n• 世界最伟大伸展：每侧5次\n• 
  90/90髋部换边：每侧8次\n• 弹力带扩胸15次 + "no-money"外
  旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳：2 x 20\n• 第
- 一个动作的递增热身组：2到3组\n\n主训练 + 墙球力量（55
+ 一个动作的递增热身组：2到3组\n\n主训练 + 墙球力量（50
  分钟，4组，保留2次余力）：\n1. 药球深蹲向上抛 ★（墙
  球力量）：5 x 5，全力，休息60秒\n2. 颈前深蹲 🏅 + 箱跳
  （墙球力量）：4 x 5–6，1RM的70–80%，每组做完马上接3
- 个箱跳，休息2–3分钟\n3. 杠铃火箭推 ★（墙球力量）：
- 4 x 8，40–50公斤，休息2分钟\n4. 保加利亚分腿蹲 ★：每
- 条腿 3 x 8，休息90秒\n5. 单腿硬拉上举 ★：每条腿 3 x 8，
- 休息60秒\n6. 弹力带臀推 ★：3 x 8–10，顶端停1秒，休息9
- 0秒\n7. 北欧挺 ★：3 x 5–6，下放越慢越好，休息90秒\n8. 
- 腿屈伸（椅背后仰）🏅：2 x 12–15，休息60秒\n9. 站姿杠
- 铃提踵 3 x 10 + 屈膝提踵（比目鱼肌）2 x 15，休息60秒\n\n
- 功能性（20分钟）：\n• 3轮计时：沙袋弓步50米（20公斤
- ）+ 墙球30个（6公斤，3.00米）\n• 然后波比跳远：2 x 40
- 米，快速，休息90秒\n\n晚上（可选，10分钟）：\n• 世界
- 最伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次\n• 俯
- 卧颈部系列：用瑜伽砖\n\n—— English ——\nTime: 105 min\nWa
- rm-up (20 min):\n• Easy row or ski: 5 min\n• World's greatest stretch:
-  5/side\n• 90/90 hip switches: 8/side\n• Band pull-apart 15 + no-money
-  external rotation 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n
- • Ramp-up sets of the first lift: 2–3\n\nMain work + wall-ball strengt
- h (55 min\, 4 sets\, 2 reps in reserve):\n1. Med-ball squat throw straight
-  up ★ (wall-ball strength): 5 x 5\, all-out\, 60 s rest\n2. Front squat 
- 🏅 + box jumps (wall-ball strength): 4 x 5–6 at 70–80% of max\, 3 bo
- x jumps straight after each set\, 2–3 min rest\n3. Barbell thruster ★ 
- (wall-ball strength): 4 x 8 at 40–50 kg\, 2 min rest\n4. Bulgarian split
-  squat ★: 3 x 8 each\, 90 s rest\n5. Single-leg RDL to press ★: 3 x 8 
- each\, 60 s rest\n6. Banded hip thrust ★: 3 x 8–10\, 1 s squeeze at th
- e top\, 90 s rest\n7. Nordic curl ★: 3 x 5–6\, lower as slowly as you 
- can\, 90 s rest\n8. Leg extension\, seat reclined 🏅: 2 x 12–15\, 60 s
-  rest\n9. Standing barbell calf raise 3 x 10 + bent-knee soleus raise 2 x 
- 15\, 60 s rest\n\nFunctional (20 min):\n• 3 rounds for time: sandbag lun
- ges 50 m (20 kg) + 30 wall balls (6 kg\, 3.00 m)\n• Then burpee broad ju
- mps: 2 x 40 m fast\, 90 s rest\n\nEvening (optional\, 10 min):\n• World'
- s greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n• Prone neck
-  series on a yoga block\n\nhttps://andyxuedct.github.io/Training-Plan/
+ 个箱跳，休息2–3分钟\n3. 保加利亚分腿蹲 ★：每条腿 3 
+ x 8，休息90秒\n4. 单腿硬拉上举 ★：每条腿 3 x 8，休息60
+ 秒\n5. 弹力带臀推 ★：3 x 8–10，顶端停1秒，休息90秒\n6.
+  北欧挺 ★：3 x 5–6，下放越慢越好，休息90秒\n7. 腿屈
+ 伸（椅背后仰）🏅：2 x 12–15，休息60秒\n8. 站姿杠铃提
+ 踵 3 x 10 + 屈膝提踵（比目鱼肌）2 x 15，休息60秒\n\n功能
+ 性：划船和农夫行走（20分钟，不做墙球、弓步和波比跳
+ 远，周一和周四已经练过）：\n• 4轮：划船机500米，比
+ 赛配速2:10–2:15/500米\n• 接农夫行走50米（2 x 24公斤）\n
+ • 轮间休息90秒\n\n晚上（可选，10分钟）：\n• 世界最
+ 伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次\n• 俯卧
+ 颈部系列：用瑜伽砖\n\n—— English ——\nTime: 90 min\nWarm-u
+ p (20 min):\n• Easy row or ski: 5 min\n• World's greatest stretch: 5/s
+ ide\n• 90/90 hip switches: 8/side\n• Band pull-apart 15 + no-money ext
+ ernal rotation 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• R
+ amp-up sets of the first lift: 2–3\n\nMain work + wall-ball strength (50
+  min\, 4 sets\, 2 reps in reserve):\n1. Med-ball squat throw straight up 
+ ★ (wall-ball strength): 5 x 5\, all-out\, 60 s rest\n2. Front squat 🏅
+  + box jumps (wall-ball strength): 4 x 5–6 at 70–80% of max\, 3 box ju
+ mps straight after each set\, 2–3 min rest\n3. Bulgarian split squat ★
+ : 3 x 8 each\, 90 s rest\n4. Single-leg RDL to press ★: 3 x 8 each\, 60 
+ s rest\n5. Banded hip thrust ★: 3 x 8–10\, 1 s squeeze at the top\, 90
+  s rest\n6. Nordic curl ★: 3 x 5–6\, lower as slowly as you can\, 90 s
+  rest\n7. Leg extension\, seat reclined 🏅: 2 x 12–15\, 60 s rest\n8. 
+ Standing barbell calf raise 3 x 10 + bent-knee soleus raise 2 x 15\, 60 s 
+ rest\n\nFunctional: row and farmers carry (20 min\; no wall balls\, lunges
+  or burpee broad jumps\, Monday and Thursday cover them):\n• 4 rounds: r
+ ow 500 m at race pace\, 2:10–2:15 /500 m\n• Straight into farmers carr
+ y 50 m (2 x 24 kg)\n• 90 s rest between rounds\n\nEvening (optional\, 10
+  min):\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/si
+ de\n• Prone neck series on a yoga block\n\nhttps://andyxuedct.github.io/
+ Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Gym A + BJJ
-DESCRIPTION:用时：100分钟 + 柔术\n\nA课 + 柔术\n热身（20分钟
+DESCRIPTION:用时：85分钟 + 柔术\n\nA课 + 柔术\n热身（20分钟
  ）：\n• 轻松划船或滑雪机：5分钟\n• 世界最伟大伸展
  ：每侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩胸15
  次 + "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳
  ：2 x 20\n• 第一个动作的递增热身组：2到3组\n\n主训练
- （40分钟，4组，保留1到2次余力）：\n1. 药球对墙旋转抛 
- ★：每侧 3 x 5，全力，休息60秒\n2. 引体向上 🏅（第1天
- ）：5 x 8，休息90秒\n3. 上斜哑铃卧推 🏅（约45°）：4 x 6
- –8，休息2–3分钟\n4. 器械划船或杠铃划船：4 x 6–8，休
- 息2分钟\n5. 负重双杠臂屈伸（身体前倾）：3 x 6–10，休
- 息2分钟\n6. 对握/V把下拉：3 x 8–10，休息90秒\n7. 毛巾悬
- 垂：2 x 力竭，休息90秒\n\n墙球力量（15分钟）：\n• 9公
- 斤重墙球打3.00米目标：5 x 10\n• 组间休息1分钟\n\n功能
- 性（20分钟）：\n• 墙球EMOM 12分钟：每分钟15个（6公斤
- ，3.00米）\n• 滑雪机：4 x 500米，比赛强度2:00–2:05，休
- 息1分钟\n\n晚上柔术： 技术练习和轻松对练\n\n—— Englis
- h ——\nTime: 100 min + BJJ\nWarm-up (20 min):\n• Easy row or ski: 5 m
- in\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n
- • Band pull-apart 15 + no-money external rotation 12\n• Prone Y-raise:
-  2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\
- n\nMain work (40 min\, 4 sets\, 1–2 reps in reserve):\n1. Med-ball rotat
- ional throw against a wall ★: 3 x 5 per side\, all-out\, 60 s rest\n2. P
- ull-ups 🏅 (Day 1): 5 x 8\, 90 s rest\n3. Incline DB press 🏅 (about 4
- 5°): 4 x 6–8\, 2–3 min rest\n4. Machine row or barbell row: 4 x 6–8
- \, 2 min rest\n5. Weighted dips\, leaning forward: 3 x 6–10\, 2 min rest
- \n6. Neutral/V-grip pulldown: 3 x 8–10\, 90 s rest\n7. Towel dead hang: 
- 2 x max\, 90 s rest\n\nWall-ball strength (15 min):\n• 9 kg heavy wall b
- alls to the 3.00 m target: 5 x 10\n• 1 min rest between sets\n\nFunction
- al (20 min):\n• Wall balls EMOM 12 min: 15 per minute (6 kg\, 3.00 m)\n
- • SkiErg: 4 x 500 m at race effort\, 2:00–2:05\, 1 min rest\n\nBJJ in 
- the evening: drilling and light rolls\n\nhttps://andyxuedct.github.io/Trai
- ning-Plan/
+ （40分钟，4组，保留1到2次余力）：\n1. 引体向上 🏅（
+ 第1天）：5 x 8，休息90秒\n2. 上斜哑铃卧推 🏅（约45°）
+ ：4 x 6–8，休息2–3分钟\n3. 器械划船或杠铃划船：4 x 6
+ –8，休息2分钟\n4. 负重双杠臂屈伸（身体前倾）：3 x 6
+ –10，休息2分钟\n5. 对握/V把下拉：3 x 8–10，休息90秒\n6.
+  毛巾悬垂：2 x 力竭，休息90秒\n\n功能性：墙球（25分钟
+ ，本周唯一的墙球课）：\n• 9公斤重墙球打3.00米目标：
+ 5 x 10\n• 组间休息1分钟\n• 墙球EMOM 12分钟：每分钟15个
+ （6公斤，3.00米）\n\n晚上柔术： 技术练习和轻松对练\n\n
+ —— English ——\nTime: 85 min + BJJ\nWarm-up (20 min):\n• Easy row
+  or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switch
+ es: 8/side\n• Band pull-apart 15 + no-money external rotation 12\n• Pr
+ one Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first 
+ lift: 2–3\n\nMain work (40 min\, 4 sets\, 1–2 reps in reserve):\n1. Pu
+ ll-ups 🏅 (Day 1): 5 x 8\, 90 s rest\n2. Incline DB press 🏅 (about 45
+ °): 4 x 6–8\, 2–3 min rest\n3. Machine row or barbell row: 4 x 6–8\
+ , 2 min rest\n4. Weighted dips\, leaning forward: 3 x 6–10\, 2 min rest\
+ n5. Neutral/V-grip pulldown: 3 x 8–10\, 90 s rest\n6. Towel dead hang: 2
+  x max\, 90 s rest\n\nFunctional: wall balls (25 min\, the one wall-ball b
+ lock of the week):\n• 9 kg heavy wall balls to the 3.00 m target: 5 x 10
+ \n• 1 min rest between sets\n• Wall balls EMOM 12 min: 15 per minute (
+ 6 kg\, 3.00 m)\n\nBJJ in the evening: drilling and light rolls\n\nhttps://
+ andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Intervals 5 x 1 km at I + BJJ
@@ -288,7 +285,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Easy 10 km + ankle/glute + BJJ
@@ -320,7 +317,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:HYROX running off the sleds
@@ -331,35 +328,31 @@ DESCRIPTION:用时：65分钟\n\nHYROX：雪橇后接跑步\n热身（15分
  . 拉雪橇25米（103公斤）\n4. 20个墙球，不间断（6公斤，3.
  00米）\n\n目标：\n• 腿很沉的时候，每公里仍保持在4:50
  前后5秒内\n• 记录每轮时间\n\n放松：\n• 1公里轻松跑\n
- • 拉伸\n• 今天跑步一共约8公里\n\n晚上居家H1（20分钟
- ）：\n• 弹力带扩胸：3 x 15\n• 弹力带面拉：3 x 15\n• "n
- o-money"外旋：2 x 12\n• 弹力带Y字静止：2 x 20秒\n\n核心（3
- 轮，每个动作30秒、休息20秒）：\n• 死虫\n• 左右侧平
- 板\n• 空心支撑\n• 弹力带Pallof抗旋推\n\n拉伸：\n• 世
- 界最伟大伸展：每侧6次\n• 青蛙式摇摆：10次\n• 穿针
- 式：每侧6次\n\n—— English ——\nTime: 65 min\nWarm-up (15 min):
- \n• 2 km easy\n• 4 strides\n• Sled push and pull: one length each at
-  about half weight\n\nMain set: 5 rounds\, 90 s rest between. Each round:\
- n1. 1 km run at 4:50\n2. Sled push 25 m (152 kg)\n3. Sled pull 25 m (103 k
- g)\n4. 20 wall balls unbroken (6 kg\, 3.00 m)\n\nGoal:\n• Every km withi
- n 5 s of 4:50 on heavy legs\n• Record each round\n\nCool-down:\n• 1 km
-  easy\n• Stretch\n• About 8 km of running in total\n\nHome H1 in the e
- vening (20 min):\n• Band pull-apart: 3 x 15\n• Band face pull: 3 x 15\
- n• No-money external rotation: 2 x 12\n• Band Y hold: 2 x 20 s\n\nCore
-  (3 rounds\, 30 s on / 20 s off):\n• Dead bug\n• Side plank\, each sid
- e\n• Hollow hold\n• Band Pallof press\n\nStretch:\n• World's greates
- t stretch: 6/side\n• Frog rocks: 10\n• Thread the needle: 6/side\n\nht
- tps://andyxuedct.github.io/Training-Plan/
+ • 拉伸\n• 今天跑步一共约8公里\n\n晚上居家H1（10分钟
+ ，肩袖和拉伸）：\n• "no-money"外旋：2 x 12\n• 弹力带Y字
+ 静止：2 x 20秒\n\n拉伸：\n• 世界最伟大伸展：每侧6次\n
+ • 青蛙式摇摆：10次\n• 穿针式：每侧6次\n\n—— English 
+ ——\nTime: 65 min\nWarm-up (15 min):\n• 2 km easy\n• 4 strides\n•
+  Sled push and pull: one length each at about half weight\n\nMain set: 5 r
+ ounds\, 90 s rest between. Each round:\n1. 1 km run at 4:50\n2. Sled push 
+ 25 m (152 kg)\n3. Sled pull 25 m (103 kg)\n4. 20 wall balls unbroken (6 kg
+ \, 3.00 m)\n\nGoal:\n• Every km within 5 s of 4:50 on heavy legs\n• Re
+ cord each round\n\nCool-down:\n• 1 km easy\n• Stretch\n• About 8 km 
+ of running in total\n\nHome H1 in the evening (10 min\, rotator cuff and s
+ tretch):\n• No-money external rotation: 2 x 12\n• Band Y hold: 2 x 20 
+ s\n\nStretch:\n• World's greatest stretch: 6/side\n• Frog rocks: 10\n
+ • Thread the needle: 6/side\n\nhttps://andyxuedct.github.io/Training-Pla
+ n/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Gym C + swim
-DESCRIPTION:用时：105 + 15分钟\n\nC课 + 游泳\n热身（20分钟）
+DESCRIPTION:用时：85 + 15分钟\n\nC课 + 游泳\n热身（20分钟）
  ：\n• 轻松划船或滑雪机：5分钟\n• 世界最伟大伸展：
  每侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩胸15次 +
   "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳：2 x
@@ -369,51 +362,44 @@ DESCRIPTION:用时：105 + 15分钟\n\nC课 + 游泳\n热身（20分钟）
  姿绳索划船：3 x 10–12，休息90秒\n4. 蝴蝶机夹胸：3 x 12
  –15，休息60秒\n5. 半跪单臂绳索下拉：每侧 3 x 10–12，
  休息60秒\n6. 直臂绳索下压：2 x 12–15，休息60秒\n7. 坐姿
- 哑铃推举：3 x 8–10，休息90秒\n\n墙球力量（10分钟）：\n
- • 借力推举 ★：4 x 6，休息2分钟\n• 哑铃高翻接火箭推
-  ★：4 x 8，休息90秒\n\n手臂和肩（10分钟）：\n1. 面拉 + 
- 弹力带扩胸：3 x 15 + 20，连着做，休息60秒\n2. 过顶绳索
- 臂屈伸 🏅 + 弯举：3 x 10–12，交替做，休息60秒\n3. 绳索
- 下压 + 锤式弯举：2 x 12，交替做，休息60秒\n\n引体向上
- 第2天：\n• 6到8组 x 5个，轻松\n• 穿插做：每做完一个
- 动作做一组\n\n功能性（25分钟，核心循环3轮）：\n• 半
- 跪绳索转体：每侧10次\n• 绳索伐木（高到低）：每侧10
- 次\n• Pallof抗旋推：每侧10次\n• 哥本哈根侧桥 ★：每
- 侧20秒\n• 杠铃片转体：20次\n• 死虫：每侧10次\n• 抬
- 腿卷腹：12次\n• 平板支撑：45秒\n\n然后做负重和静蹲：
- \n• 单手提物行走：每只手 2 x 40米\n• 抱6公斤墙球在胸
- 前靠墙静蹲 ★：3 x 60秒\n\n游泳（15分钟，约400米轻松）
- ：\n• 8 x 50米，每组休息20秒\n• 放松呼吸\n\n—— English
-  ——\nTime: 105 + 15 min\nWarm-up (20 min):\n• Easy row or ski: 5 min
- \n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n
- • Band pull-apart 15 + no-money external rotation 12\n• Prone Y-raise:
-  2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\
- n\nMain work (35 min\, 3 sets\, 1–2 reps in reserve):\n1. Flat DB press:
-  3 x 10–12\, 90 s rest\n2. Machine chest press 🏅: 3 x 8–10\, 90 s r
- est\n3. Seated cable row: 3 x 10–12\, 90 s rest\n4. Pec deck: 3 x 12–1
- 5\, 60 s rest\n5. Half-kneeling single-arm pulldown: 3 x 10–12 each\, 60
-  s rest\n6. Straight-arm cable pulldown: 2 x 12–15\, 60 s rest\n7. Seate
- d DB shoulder press: 3 x 8–10\, 90 s rest\n\nWall-ball strength (10 min)
- :\n• Push press ★: 4 x 6\, 2 min rest\n• DB clean into thruster ★:
-  4 x 8\, 90 s rest\n\nArms and shoulders (10 min):\n1. Face pull + band pu
- ll-apart: 3 x 15 + 20\, back to back\, 60 s rest\n2. Overhead rope extensi
- on 🏅 + curl: 3 x 10–12\, alternating\, 60 s rest\n3. Rope pushdown + 
- hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-up Day 2:\n• 6–8
-  sets of 5\, easy\n• Spread out: one set after each exercise\n\nFunction
- al (25 min\, core circuit\, 3 rounds):\n• Half-kneeling cable rotation: 
- 10/side\n• Cable woodchop\, high to low: 10/side\n• Pallof press: 10/s
- ide\n• Copenhagen plank ★: 20 s/side\n• Plate twist: 20\n• Dead bu
- g: 10/side\n• Leg-raise crunch: 12\n• Plank: 45 s\n\nThen carry and wa
- ll sit:\n• Suitcase carry: 2 x 40 m per hand\n• Wall sit holding the 6
-  kg ball at your chest ★: 3 x 60 s\n\nSwim (15 min\, about 400 m easy):\
- n• 8 x 50 m\, 20 s rest\n• Relaxed breathing\n\nhttps://andyxuedct.git
- hub.io/Training-Plan/
+ 哑铃推举：3 x 8–10，休息90秒\n\n手臂和肩（10分钟）：\n
+ 1. 面拉：3 x 15，休息60秒\n2. 过顶绳索臂屈伸 🏅 + 弯举
+ ：3 x 10–12，交替做，休息60秒\n3. 绳索下压 + 锤式弯举
+ ：2 x 12，交替做，休息60秒\n\n引体向上第2天：\n• 6到8
+ 组 x 5个，轻松\n• 穿插做：每做完一个动作做一组\n\n功
+ 能性：核心和旋转（20分钟，本周唯一的核心课）：\n• 
+ 药球对墙旋转抛 ★（先做，全力）：每侧 3 x 5，休息60
+ 秒\n• 然后循环3轮：绳索伐木（高到低）每侧10次\n• Pa
+ llof抗旋推：每侧10次\n• 哥本哈根侧桥 ★：每侧20秒\n•
+  死虫：每侧10次\n• 抬腿卷腹：12次\n\n游泳（15分钟，约
+ 400米轻松）：\n• 8 x 50米，每组休息20秒\n• 放松呼吸\n\
+ n—— English ——\nTime: 85 + 15 min\nWarm-up (20 min):\n• Easy row
+  or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switch
+ es: 8/side\n• Band pull-apart 15 + no-money external rotation 12\n• Pr
+ one Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first 
+ lift: 2–3\n\nMain work (35 min\, 3 sets\, 1–2 reps in reserve):\n1. Fl
+ at DB press: 3 x 10–12\, 90 s rest\n2. Machine chest press 🏅: 3 x 8
+ –10\, 90 s rest\n3. Seated cable row: 3 x 10–12\, 90 s rest\n4. Pec de
+ ck: 3 x 12–15\, 60 s rest\n5. Half-kneeling single-arm pulldown: 3 x 10
+ –12 each\, 60 s rest\n6. Straight-arm cable pulldown: 2 x 12–15\, 60 s
+  rest\n7. Seated DB shoulder press: 3 x 8–10\, 90 s rest\n\nArms and sho
+ ulders (10 min):\n1. Face pull: 3 x 15\, 60 s rest\n2. Overhead rope exten
+ sion 🏅 + curl: 3 x 10–12\, alternating\, 60 s rest\n3. Rope pushdown 
+ + hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-up Day 2:\n• 6
+ –8 sets of 5\, easy\n• Spread out: one set after each exercise\n\nFunc
+ tional: core and rotation (20 min\, the one core block of the week):\n• 
+ Med-ball rotational throw against a wall ★ (first\, all-out): 3 x 5 per 
+ side\, 60 s rest\n• Then 3 rounds: cable woodchop\, high to low\, 10/sid
+ e\n• Pallof press: 10/side\n• Copenhagen plank ★: 20 s/side\n• Dea
+ d bug: 10/side\n• Leg-raise crunch: 12\n\nSwim (15 min\, about 400 m eas
+ y):\n• 8 x 50 m\, 20 s rest\n• Relaxed breathing\n\nhttps://andyxuedct
+ .github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Long run 14 km
@@ -440,11 +426,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:RedNote HYROX circuit (replaces Gym B)
-DESCRIPTION:用时：75分钟\n\n小红书HYROX循环训练（代替B课）
+DESCRIPTION:用时：65分钟\n\n小红书HYROX循环训练（代替B课）
  \n热身（20分钟）：\n• 轻松划船或滑雪机：5分钟\n• 世
  界最伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次\n• 
  弹力带扩胸15次 + "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n
@@ -453,72 +439,63 @@ DESCRIPTION:用时：75分钟\n\n小红书HYROX循环训练（代替B课）
  ：\n1. 哑铃行走弓步：20步（每只手25公斤）\n2. 硬拉：10
  个（80公斤）\n3. 杠铃下蹲翻：10个（60公斤）\n4. 杠铃火
  箭推（thruster）：10个（60公斤）\n5. 滑雪机：500米，比赛
- 强度\n6. 跑步：400米，1:40\n\n要点： 记录每轮时间\n\n核
- 心（10分钟，2轮）：\n• 半跪绳索转体：每侧10次\n• Pal
- lof抗旋推：每侧10次\n• 哥本哈根侧桥：每侧20秒\n• 死
- 虫：每侧10次\n• 平板支撑：45秒\n\n晚上（可选，10分钟
- ）：\n• 世界最伟大伸展：每侧5次\n• 90/90髋部换边：
- 每侧8次\n• 俯卧颈部系列：用瑜伽砖\n\n—— English ——
- \nTime: 75 min\nWarm-up (20 min):\n• Easy row or ski: 5 min\n• World's
-  greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n• Band pull-a
- part 15 + no-money external rotation 12\n• Prone Y-raise: 2 x 12\n• Po
- go hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\n\nRedNote HYRO
- X circuit (about 45 min\, 4 rounds\, 2 min rest between):\n1. DB walking l
- unges: 20 steps (25 kg per hand)\n2. Deadlifts: 10 (80 kg)\n3. Barbell squ
- at cleans: 10 (60 kg)\n4. Thrusters: 10 (60 kg)\n5. Ski: 500 m at race eff
- ort\n6. Run: 400 m in 1:40\n\nCue: record each round\n\nCore (10 min\, 2 r
- ounds):\n• Half-kneeling cable rotation: 10/side\n• Pallof press: 10/s
- ide\n• Copenhagen plank: 20 s/side\n• Dead bug: 10/side\n• Plank: 45
-  s\n\nEvening (optional\, 10 min):\n• World's greatest stretch: 5/side\n
- • 90/90 hip switches: 8/side\n• Prone neck series on a yoga block\n\nh
- ttps://andyxuedct.github.io/Training-Plan/
+ 强度\n6. 跑步：400米，1:40\n\n要点： 记录每轮时间\n\n晚
+ 上（可选，10分钟）：\n• 世界最伟大伸展：每侧5次\n•
+  90/90髋部换边：每侧8次\n• 俯卧颈部系列：用瑜伽砖\n\n
+ —— English ——\nTime: 65 min\nWarm-up (20 min):\n• Easy row or sk
+ i: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/
+ side\n• Band pull-apart 15 + no-money external rotation 12\n• Prone Y-
+ raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 
+ 2–3\n\nRedNote HYROX circuit (about 45 min\, 4 rounds\, 2 min rest betwe
+ en):\n1. DB walking lunges: 20 steps (25 kg per hand)\n2. Deadlifts: 10 (8
+ 0 kg)\n3. Barbell squat cleans: 10 (60 kg)\n4. Thrusters: 10 (60 kg)\n5. S
+ ki: 500 m at race effort\n6. Run: 400 m in 1:40\n\nCue: record each round\
+ n\nEvening (optional\, 10 min):\n• World's greatest stretch: 5/side\n•
+  90/90 hip switches: 8/side\n• Prone neck series on a yoga block\n\nhttp
+ s://andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Gym A + BJJ
-DESCRIPTION:用时：100分钟 + 柔术\n\nA课 + 柔术\n热身（20分钟
+DESCRIPTION:用时：85分钟 + 柔术\n\nA课 + 柔术\n热身（20分钟
  ）：\n• 轻松划船或滑雪机：5分钟\n• 世界最伟大伸展
  ：每侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩胸15
  次 + "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳
  ：2 x 20\n• 第一个动作的递增热身组：2到3组\n\n主训练
- （40分钟，4组，保留1到2次余力）：\n1. 药球对墙旋转抛 
- ★：每侧 3 x 5，全力，休息60秒\n2. 引体向上 🏅（第1天
- ）：5 x 8，休息90秒\n3. 上斜哑铃卧推 🏅（约45°）：4 x 6
- –8，休息2–3分钟\n4. 器械划船或杠铃划船：4 x 6–8，休
- 息2分钟\n5. 负重双杠臂屈伸（身体前倾）：3 x 6–10，休
- 息2分钟\n6. 对握/V把下拉：3 x 8–10，休息90秒\n7. 毛巾悬
- 垂：2 x 力竭，休息90秒\n\n墙球力量（15分钟）：\n• 9公
- 斤重墙球打3.00米目标：5 x 10\n• 组间休息1分钟\n\n功能
- 性（20分钟）：\n• 墙球EMOM 10分钟：每分钟20个（6公斤
- ，3.00米）\n• 滑雪机：4 x 500米，比赛强度2:00–2:05，休
- 息1分钟\n\n晚上柔术： 技术练习和轻松对练\n\n—— Englis
- h ——\nTime: 100 min + BJJ\nWarm-up (20 min):\n• Easy row or ski: 5 m
- in\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n
- • Band pull-apart 15 + no-money external rotation 12\n• Prone Y-raise:
-  2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\
- n\nMain work (40 min\, 4 sets\, 1–2 reps in reserve):\n1. Med-ball rotat
- ional throw against a wall ★: 3 x 5 per side\, all-out\, 60 s rest\n2. P
- ull-ups 🏅 (Day 1): 5 x 8\, 90 s rest\n3. Incline DB press 🏅 (about 4
- 5°): 4 x 6–8\, 2–3 min rest\n4. Machine row or barbell row: 4 x 6–8
- \, 2 min rest\n5. Weighted dips\, leaning forward: 3 x 6–10\, 2 min rest
- \n6. Neutral/V-grip pulldown: 3 x 8–10\, 90 s rest\n7. Towel dead hang: 
- 2 x max\, 90 s rest\n\nWall-ball strength (15 min):\n• 9 kg heavy wall b
- alls to the 3.00 m target: 5 x 10\n• 1 min rest between sets\n\nFunction
- al (20 min):\n• Wall balls EMOM 10 min: 20 per minute (6 kg\, 3.00 m)\n
- • SkiErg: 4 x 500 m at race effort\, 2:00–2:05\, 1 min rest\n\nBJJ in 
- the evening: drilling and light rolls\n\nhttps://andyxuedct.github.io/Trai
- ning-Plan/
+ （40分钟，4组，保留1到2次余力）：\n1. 引体向上 🏅（
+ 第1天）：5 x 8，休息90秒\n2. 上斜哑铃卧推 🏅（约45°）
+ ：4 x 6–8，休息2–3分钟\n3. 器械划船或杠铃划船：4 x 6
+ –8，休息2分钟\n4. 负重双杠臂屈伸（身体前倾）：3 x 6
+ –10，休息2分钟\n5. 对握/V把下拉：3 x 8–10，休息90秒\n6.
+  毛巾悬垂：2 x 力竭，休息90秒\n\n功能性：墙球（25分钟
+ ，本周唯一的墙球课）：\n• 9公斤重墙球打3.00米目标：
+ 5 x 10\n• 组间休息1分钟\n• 墙球EMOM 10分钟：每分钟20个
+ （6公斤，3.00米）\n\n晚上柔术： 技术练习和轻松对练\n\n
+ —— English ——\nTime: 85 min + BJJ\nWarm-up (20 min):\n• Easy row
+  or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switch
+ es: 8/side\n• Band pull-apart 15 + no-money external rotation 12\n• Pr
+ one Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first 
+ lift: 2–3\n\nMain work (40 min\, 4 sets\, 1–2 reps in reserve):\n1. Pu
+ ll-ups 🏅 (Day 1): 5 x 8\, 90 s rest\n2. Incline DB press 🏅 (about 45
+ °): 4 x 6–8\, 2–3 min rest\n3. Machine row or barbell row: 4 x 6–8\
+ , 2 min rest\n4. Weighted dips\, leaning forward: 3 x 6–10\, 2 min rest\
+ n5. Neutral/V-grip pulldown: 3 x 8–10\, 90 s rest\n6. Towel dead hang: 2
+  x max\, 90 s rest\n\nFunctional: wall balls (25 min\, the one wall-ball b
+ lock of the week):\n• 9 kg heavy wall balls to the 3.00 m target: 5 x 10
+ \n• 1 min rest between sets\n• Wall balls EMOM 10 min: 20 per minute (
+ 6 kg\, 3.00 m)\n\nBJJ in the evening: drilling and light rolls\n\nhttps://
+ andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Intervals 6 x 800 m at I + BJJ
@@ -540,7 +517,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Easy 12 km + ankle/glute + BJJ
@@ -572,7 +549,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:HYROX first half\, sleds +20 kg
@@ -585,36 +562,32 @@ DESCRIPTION:用时：65分钟\n\nHYROX：前半程，雪橇加重20公斤\n
  ，123公斤\n7. 1公里跑\n8. 波比跳远80米\n9. 最后1公里，配
  速4:45\n\n要点：\n• 记录每一个分段\n• 和第1周的基准
  测试比较\n\n放松：\n• 1公里慢跑或走路\n• 拉伸\n• 今
- 天跑步一共约7公里\n\n晚上居家H1（20分钟）：\n• 弹力
- 带扩胸：3 x 15\n• 弹力带面拉：3 x 15\n• "no-money"外旋：2
-  x 12\n• 弹力带Y字静止：2 x 20秒\n\n核心（3轮，每个动作
- 30秒、休息20秒）：\n• 死虫\n• 左右侧平板\n• 空心支
- 撑\n• 弹力带Pallof抗旋推\n\n拉伸：\n• 世界最伟大伸展
- ：每侧6次\n• 青蛙式摇摆：10次\n• 穿针式：每侧6次\n\n
- —— English ——\nTime: 65 min\nWarm-up (15 min):\n• 2 km easy\n•
-  4 strides\n• Sled push and pull: one length each at race weight\n\nMain
-  set: the first half of the race\, sleds +20 kg\, no rest:\n1. 1 km run at
-  4:50\n2. Ski 1\,000 m at race effort (4:05–4:15)\n3. 1 km run at 4:50\n
- 4. Sled push 50 m at 172 kg\n5. 1 km run\n6. Sled pull 50 m at 123 kg\n7. 
- 1 km run\n8. Burpee broad jumps 80 m\n9. Last 1 km at 4:45\n\nCues:\n• R
- ecord every split\n• Compare with your W1 benchmark\n\nCool-down:\n• 1
-  km jog or walk\n• Stretch\n• About 7 km of running in total\n\nHome H
- 1 in the evening (20 min):\n• Band pull-apart: 3 x 15\n• Band face pul
- l: 3 x 15\n• No-money external rotation: 2 x 12\n• Band Y hold: 2 x 20
-  s\n\nCore (3 rounds\, 30 s on / 20 s off):\n• Dead bug\n• Side plank\
- , each side\n• Hollow hold\n• Band Pallof press\n\nStretch:\n• World
- 's greatest stretch: 6/side\n• Frog rocks: 10\n• Thread the needle: 6/
- side\n\nhttps://andyxuedct.github.io/Training-Plan/
+ 天跑步一共约7公里\n\n晚上居家H1（10分钟，肩袖和拉伸
+ ）：\n• "no-money"外旋：2 x 12\n• 弹力带Y字静止：2 x 20秒
+ \n\n拉伸：\n• 世界最伟大伸展：每侧6次\n• 青蛙式摇摆
+ ：10次\n• 穿针式：每侧6次\n\n—— English ——\nTime: 65 mi
+ n\nWarm-up (15 min):\n• 2 km easy\n• 4 strides\n• Sled push and pull
+ : one length each at race weight\n\nMain set: the first half of the race\,
+  sleds +20 kg\, no rest:\n1. 1 km run at 4:50\n2. Ski 1\,000 m at race eff
+ ort (4:05–4:15)\n3. 1 km run at 4:50\n4. Sled push 50 m at 172 kg\n5. 1 
+ km run\n6. Sled pull 50 m at 123 kg\n7. 1 km run\n8. Burpee broad jumps 80
+  m\n9. Last 1 km at 4:45\n\nCues:\n• Record every split\n• Compare wit
+ h your W1 benchmark\n\nCool-down:\n• 1 km jog or walk\n• Stretch\n• 
+ About 7 km of running in total\n\nHome H1 in the evening (10 min\, rotator
+  cuff and stretch):\n• No-money external rotation: 2 x 12\n• Band Y ho
+ ld: 2 x 20 s\n\nStretch:\n• World's greatest stretch: 6/side\n• Frog r
+ ocks: 10\n• Thread the needle: 6/side\n\nhttps://andyxuedct.github.io/Tr
+ aining-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Gym C + swim
-DESCRIPTION:用时：105 + 15分钟\n\nC课 + 游泳\n热身（20分钟）
+DESCRIPTION:用时：85 + 15分钟\n\nC课 + 游泳\n热身（20分钟）
  ：\n• 轻松划船或滑雪机：5分钟\n• 世界最伟大伸展：
  每侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩胸15次 +
   "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳：2 x
@@ -624,51 +597,44 @@ DESCRIPTION:用时：105 + 15分钟\n\nC课 + 游泳\n热身（20分钟）
  姿绳索划船：3 x 10–12，休息90秒\n4. 蝴蝶机夹胸：3 x 12
  –15，休息60秒\n5. 半跪单臂绳索下拉：每侧 3 x 10–12，
  休息60秒\n6. 直臂绳索下压：2 x 12–15，休息60秒\n7. 坐姿
- 哑铃推举：3 x 8–10，休息90秒\n\n墙球力量（10分钟）：\n
- • 借力推举 ★：4 x 6，休息2分钟\n• 哑铃高翻接火箭推
-  ★：4 x 8，休息90秒\n\n手臂和肩（10分钟）：\n1. 面拉 + 
- 弹力带扩胸：3 x 15 + 20，连着做，休息60秒\n2. 过顶绳索
- 臂屈伸 🏅 + 弯举：3 x 10–12，交替做，休息60秒\n3. 绳索
- 下压 + 锤式弯举：2 x 12，交替做，休息60秒\n\n引体向上
- 第2天：\n• 6到8组 x 5个，轻松\n• 穿插做：每做完一个
- 动作做一组\n\n功能性（25分钟，核心循环3轮）：\n• 半
- 跪绳索转体：每侧10次\n• 绳索伐木（高到低）：每侧10
- 次\n• Pallof抗旋推：每侧10次\n• 哥本哈根侧桥 ★：每
- 侧20秒\n• 杠铃片转体：20次\n• 死虫：每侧10次\n• 抬
- 腿卷腹：12次\n• 平板支撑：45秒\n\n然后做负重和静蹲：
- \n• 单手提物行走：每只手 2 x 40米\n• 抱6公斤墙球在胸
- 前靠墙静蹲 ★：3 x 60秒\n\n游泳（15分钟，约400米轻松）
- ：\n• 8 x 50米，每组休息20秒\n• 放松呼吸\n\n—— English
-  ——\nTime: 105 + 15 min\nWarm-up (20 min):\n• Easy row or ski: 5 min
- \n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n
- • Band pull-apart 15 + no-money external rotation 12\n• Prone Y-raise:
-  2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\
- n\nMain work (35 min\, 3 sets\, 1–2 reps in reserve):\n1. Flat DB press:
-  3 x 10–12\, 90 s rest\n2. Machine chest press 🏅: 3 x 8–10\, 90 s r
- est\n3. Seated cable row: 3 x 10–12\, 90 s rest\n4. Pec deck: 3 x 12–1
- 5\, 60 s rest\n5. Half-kneeling single-arm pulldown: 3 x 10–12 each\, 60
-  s rest\n6. Straight-arm cable pulldown: 2 x 12–15\, 60 s rest\n7. Seate
- d DB shoulder press: 3 x 8–10\, 90 s rest\n\nWall-ball strength (10 min)
- :\n• Push press ★: 4 x 6\, 2 min rest\n• DB clean into thruster ★:
-  4 x 8\, 90 s rest\n\nArms and shoulders (10 min):\n1. Face pull + band pu
- ll-apart: 3 x 15 + 20\, back to back\, 60 s rest\n2. Overhead rope extensi
- on 🏅 + curl: 3 x 10–12\, alternating\, 60 s rest\n3. Rope pushdown + 
- hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-up Day 2:\n• 6–8
-  sets of 5\, easy\n• Spread out: one set after each exercise\n\nFunction
- al (25 min\, core circuit\, 3 rounds):\n• Half-kneeling cable rotation: 
- 10/side\n• Cable woodchop\, high to low: 10/side\n• Pallof press: 10/s
- ide\n• Copenhagen plank ★: 20 s/side\n• Plate twist: 20\n• Dead bu
- g: 10/side\n• Leg-raise crunch: 12\n• Plank: 45 s\n\nThen carry and wa
- ll sit:\n• Suitcase carry: 2 x 40 m per hand\n• Wall sit holding the 6
-  kg ball at your chest ★: 3 x 60 s\n\nSwim (15 min\, about 400 m easy):\
- n• 8 x 50 m\, 20 s rest\n• Relaxed breathing\n\nhttps://andyxuedct.git
- hub.io/Training-Plan/
+ 哑铃推举：3 x 8–10，休息90秒\n\n手臂和肩（10分钟）：\n
+ 1. 面拉：3 x 15，休息60秒\n2. 过顶绳索臂屈伸 🏅 + 弯举
+ ：3 x 10–12，交替做，休息60秒\n3. 绳索下压 + 锤式弯举
+ ：2 x 12，交替做，休息60秒\n\n引体向上第2天：\n• 6到8
+ 组 x 5个，轻松\n• 穿插做：每做完一个动作做一组\n\n功
+ 能性：核心和旋转（20分钟，本周唯一的核心课）：\n• 
+ 药球对墙旋转抛 ★（先做，全力）：每侧 3 x 5，休息60
+ 秒\n• 然后循环3轮：绳索伐木（高到低）每侧10次\n• Pa
+ llof抗旋推：每侧10次\n• 哥本哈根侧桥 ★：每侧20秒\n•
+  死虫：每侧10次\n• 抬腿卷腹：12次\n\n游泳（15分钟，约
+ 400米轻松）：\n• 8 x 50米，每组休息20秒\n• 放松呼吸\n\
+ n—— English ——\nTime: 85 + 15 min\nWarm-up (20 min):\n• Easy row
+  or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switch
+ es: 8/side\n• Band pull-apart 15 + no-money external rotation 12\n• Pr
+ one Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first 
+ lift: 2–3\n\nMain work (35 min\, 3 sets\, 1–2 reps in reserve):\n1. Fl
+ at DB press: 3 x 10–12\, 90 s rest\n2. Machine chest press 🏅: 3 x 8
+ –10\, 90 s rest\n3. Seated cable row: 3 x 10–12\, 90 s rest\n4. Pec de
+ ck: 3 x 12–15\, 60 s rest\n5. Half-kneeling single-arm pulldown: 3 x 10
+ –12 each\, 60 s rest\n6. Straight-arm cable pulldown: 2 x 12–15\, 60 s
+  rest\n7. Seated DB shoulder press: 3 x 8–10\, 90 s rest\n\nArms and sho
+ ulders (10 min):\n1. Face pull: 3 x 15\, 60 s rest\n2. Overhead rope exten
+ sion 🏅 + curl: 3 x 10–12\, alternating\, 60 s rest\n3. Rope pushdown 
+ + hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-up Day 2:\n• 6
+ –8 sets of 5\, easy\n• Spread out: one set after each exercise\n\nFunc
+ tional: core and rotation (20 min\, the one core block of the week):\n• 
+ Med-ball rotational throw against a wall ★ (first\, all-out): 3 x 5 per 
+ side\, 60 s rest\n• Then 3 rounds: cable woodchop\, high to low\, 10/sid
+ e\n• Pallof press: 10/side\n• Copenhagen plank ★: 20 s/side\n• Dea
+ d bug: 10/side\n• Leg-raise crunch: 12\n\nSwim (15 min\, about 400 m eas
+ y):\n• 8 x 50 m\, 20 s rest\n• Relaxed breathing\n\nhttps://andyxuedct
+ .github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Long run 16 km
@@ -696,98 +662,93 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Gym B (deadlift week)
-DESCRIPTION:用时：105分钟\n\nB课（硬拉周）\n热身（20分钟）
+DESCRIPTION:用时：90分钟\n\nB课（硬拉周）\n热身（20分钟）
  ：\n• 轻松划船或滑雪机：5分钟\n• 世界最伟大伸展：
  每侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩胸15次 +
   "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳：2 x
   20\n• 第一个动作的递增热身组：2到3组\n\n主训练 + 墙
- 球力量（55分钟，4组，保留1到2次余力）：\n1. 药球深蹲
+ 球力量（50分钟，4组，保留1到2次余力）：\n1. 药球深蹲
  向上抛 ★（墙球力量）：5 x 5，全力，休息60秒\n2. 颈前
  深蹲 🏅 + 箱跳（墙球力量）：5 x 5，1RM的70–80%，每组
- 做完马上接3个箱跳，休息2–3分钟\n3. 杠铃火箭推 ★（
- 墙球力量）：4 x 8，45–50公斤，休息2分钟\n4. 保加利亚
- 分腿蹲 ★：每条腿 3 x 8，休息90秒\n5. 单腿硬拉上举 ★
- ：每条腿 3 x 8，休息60秒\n6. 六角杠硬拉 ★：4 x 3–5，1RM
- 的70–85%，每次都快速发力，休息2–3分钟\n7. 北欧挺 ★
- ：3 x 5–6，下放越慢越好，休息90秒\n8. 腿屈伸（椅背后
- 仰）🏅：2 x 12–15，休息60秒\n9. 站姿杠铃提踵 3 x 10 + 屈
- 膝提踵（比目鱼肌）2 x 15，休息60秒\n\n功能性（20分钟）
- ：\n• 比赛收尾计时：沙袋弓步100米（20公斤）直接接100
- 个墙球\n• 记录时间\n• 然后波比跳远：2 x 40米，休息90
- 秒\n\n晚上（可选，10分钟）：\n• 世界最伟大伸展：每
- 侧5次\n• 90/90髋部换边：每侧8次\n• 俯卧颈部系列：用
- 瑜伽砖\n\n—— English ——\nTime: 105 min\nWarm-up (20 min):\n• 
- Easy row or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hi
- p switches: 8/side\n• Band pull-apart 15 + no-money external rotation 12
- \n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of th
- e first lift: 2–3\n\nMain work + wall-ball strength (55 min\, 4 sets\, 1
- –2 reps in reserve):\n1. Med-ball squat throw straight up ★ (wall-ball
-  strength): 5 x 5\, all-out\, 60 s rest\n2. Front squat 🏅 + box jumps (
- wall-ball strength): 5 x 5 at 70–80% of max\, 3 box jumps straight after
-  each set\, 2–3 min rest\n3. Barbell thruster ★ (wall-ball strength): 
- 4 x 8 at 45–50 kg\, 2 min rest\n4. Bulgarian split squat ★: 3 x 8 each
- \, 90 s rest\n5. Single-leg RDL to press ★: 3 x 8 each\, 60 s rest\n6. T
- rap-bar deadlift ★: 4 x 3–5 at 70–85% of max\, every rep fast\, 2–
- 3 min rest\n7. Nordic curl ★: 3 x 5–6\, lower as slowly as you can\, 9
- 0 s rest\n8. Leg extension\, seat reclined 🏅: 2 x 12–15\, 60 s rest\n
- 9. Standing barbell calf raise 3 x 10 + bent-knee soleus raise 2 x 15\, 60
-  s rest\n\nFunctional (20 min):\n• Race finish for time: sandbag lunges 
- 100 m (20 kg) straight into 100 wall balls\n• Record the time\n• Then 
- burpee broad jumps: 2 x 40 m\, 90 s rest\n\nEvening (optional\, 10 min):\n
- • World's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n• 
- Prone neck series on a yoga block\n\nhttps://andyxuedct.github.io/Training
- -Plan/
+ 做完马上接3个箱跳，休息2–3分钟\n3. 保加利亚分腿蹲 
+ ★：每条腿 3 x 8，休息90秒\n4. 单腿硬拉上举 ★：每条腿
+  3 x 8，休息60秒\n5. 六角杠硬拉 ★：4 x 3–5，1RM的70–85%
+ ，每次都快速发力，休息2–3分钟\n6. 北欧挺 ★：3 x 5–6
+ ，下放越慢越好，休息90秒\n7. 腿屈伸（椅背后仰）🏅：
+ 2 x 12–15，休息60秒\n8. 站姿杠铃提踵 3 x 10 + 屈膝提踵（
+ 比目鱼肌）2 x 15，休息60秒\n\n功能性：划船和农夫行走
+ （20分钟，不做墙球、弓步和波比跳远，周一和周四已经
+ 练过）：\n• 4轮：划船机500米，比赛配速2:10–2:15/500米\
+ n• 接农夫行走50米（2 x 24公斤）\n• 轮间休息90秒\n\n晚
+ 上（可选，10分钟）：\n• 世界最伟大伸展：每侧5次\n•
+  90/90髋部换边：每侧8次\n• 俯卧颈部系列：用瑜伽砖\n\n
+ —— English ——\nTime: 90 min\nWarm-up (20 min):\n• Easy row or sk
+ i: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/
+ side\n• Band pull-apart 15 + no-money external rotation 12\n• Prone Y-
+ raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 
+ 2–3\n\nMain work + wall-ball strength (50 min\, 4 sets\, 1–2 reps in r
+ eserve):\n1. Med-ball squat throw straight up ★ (wall-ball strength): 5 
+ x 5\, all-out\, 60 s rest\n2. Front squat 🏅 + box jumps (wall-ball stre
+ ngth): 5 x 5 at 70–80% of max\, 3 box jumps straight after each set\, 2
+ –3 min rest\n3. Bulgarian split squat ★: 3 x 8 each\, 90 s rest\n4. Si
+ ngle-leg RDL to press ★: 3 x 8 each\, 60 s rest\n5. Trap-bar deadlift 
+ ★: 4 x 3–5 at 70–85% of max\, every rep fast\, 2–3 min rest\n6. No
+ rdic curl ★: 3 x 5–6\, lower as slowly as you can\, 90 s rest\n7. Leg 
+ extension\, seat reclined 🏅: 2 x 12–15\, 60 s rest\n8. Standing barbe
+ ll calf raise 3 x 10 + bent-knee soleus raise 2 x 15\, 60 s rest\n\nFuncti
+ onal: row and farmers carry (20 min\; no wall balls\, lunges or burpee bro
+ ad jumps\, Monday and Thursday cover them):\n• 4 rounds: row 500 m at ra
+ ce pace\, 2:10–2:15 /500 m\n• Straight into farmers carry 50 m (2 x 24
+  kg)\n• 90 s rest between rounds\n\nEvening (optional\, 10 min):\n• Wo
+ rld's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n• Prone 
+ neck series on a yoga block\n\nhttps://andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Gym A + BJJ
-DESCRIPTION:用时：90分钟 + 柔术\n\nA课 + 柔术\n热身（20分钟
+DESCRIPTION:用时：75分钟 + 柔术\n\nA课 + 柔术\n热身（20分钟
  ）：\n• 轻松划船或滑雪机：5分钟\n• 世界最伟大伸展
  ：每侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩胸15
  次 + "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳
  ：2 x 20\n• 第一个动作的递增热身组：2到3组\n\n主训练
  （40分钟，减量周：大动作3组，小动作2组，保留2次余力
- ）：\n1. 药球对墙旋转抛 ★：每侧 2 x 5，全力，休息60秒
- \n2. 引体向上 🏅（第1天）：4 x 8，休息90秒\n3. 上斜哑铃
- 卧推 🏅（约45°）：3 x 6–8，休息2–3分钟\n4. 器械划船
- 或杠铃划船：3 x 6–8，休息2分钟\n5. 负重双杠臂屈伸（
- 身体前倾）：2 x 6–10，休息2分钟\n6. 对握/V把下拉：2 x 8
- –10，休息90秒\n7. 毛巾悬垂：1 x 力竭，休息90秒\n\n墙球
- 力量（15分钟）：\n• 9公斤重墙球：3 x 10\n• 组间休息1
- 分钟\n\n功能性（20分钟）：\n• 墙球EMOM 10分钟：每分钟1
- 5个\n• 滑雪机：3 x 500米，比赛强度2:00–2:05，休息1分钟
- \n\n晚上柔术： 技术练习和轻松对练\n\n—— English ——\n
- Time: 90 min + BJJ\nWarm-up (20 min):\n• Easy row or ski: 5 min\n• Wor
- ld's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n• Band pu
- ll-apart 15 + no-money external rotation 12\n• Prone Y-raise: 2 x 12\n
- • Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\n\nMain w
- ork (40 min\, lighter week: 3 sets on the big lifts\, 2 on the small ones\
- , 2 reps in reserve):\n1. Med-ball rotational throw against a wall ★: 2 
- x 5 per side\, all-out\, 60 s rest\n2. Pull-ups 🏅 (Day 1): 4 x 8\, 90 s
-  rest\n3. Incline DB press 🏅 (about 45°): 3 x 6–8\, 2–3 min rest\n
- 4. Machine row or barbell row: 3 x 6–8\, 2 min rest\n5. Weighted dips\, 
- leaning forward: 2 x 6–10\, 2 min rest\n6. Neutral/V-grip pulldown: 2 x 
- 8–10\, 90 s rest\n7. Towel dead hang: 1 x max\, 90 s rest\n\nWall-ball s
- trength (15 min):\n• 9 kg heavy wall balls: 3 x 10\n• 1 min rest betwe
- en sets\n\nFunctional (20 min):\n• Wall balls EMOM 10 min: 15 per minute
- \n• SkiErg: 3 x 500 m at race effort\, 2:00–2:05\, 1 min rest\n\nBJJ i
- n the evening: drilling and light rolls\n\nhttps://andyxuedct.github.io/Tr
- aining-Plan/
+ ）：\n1. 引体向上 🏅（第1天）：4 x 8，休息90秒\n2. 上斜
+ 哑铃卧推 🏅（约45°）：3 x 6–8，休息2–3分钟\n3. 器械
+ 划船或杠铃划船：3 x 6–8，休息2分钟\n4. 负重双杠臂屈
+ 伸（身体前倾）：2 x 6–10，休息2分钟\n5. 对握/V把下拉
+ ：2 x 8–10，休息90秒\n6. 毛巾悬垂：1 x 力竭，休息90秒\n\
+ n功能性：墙球（25分钟，本周唯一的墙球课）：\n• 9公
+ 斤重墙球：3 x 10\n• 组间休息1分钟\n• 墙球EMOM 10分钟：
+ 每分钟15个\n\n晚上柔术： 技术练习和轻松对练\n\n—— En
+ glish ——\nTime: 75 min + BJJ\nWarm-up (20 min):\n• Easy row or ski: 
+ 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/sid
+ e\n• Band pull-apart 15 + no-money external rotation 12\n• Prone Y-rai
+ se: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2
+ –3\n\nMain work (40 min\, lighter week: 3 sets on the big lifts\, 2 on t
+ he small ones\, 2 reps in reserve):\n1. Pull-ups 🏅 (Day 1): 4 x 8\, 90 
+ s rest\n2. Incline DB press 🏅 (about 45°): 3 x 6–8\, 2–3 min rest\
+ n3. Machine row or barbell row: 3 x 6–8\, 2 min rest\n4. Weighted dips\,
+  leaning forward: 2 x 6–10\, 2 min rest\n5. Neutral/V-grip pulldown: 2 x
+  8–10\, 90 s rest\n6. Towel dead hang: 1 x max\, 90 s rest\n\nFunctional
+ : wall balls (25 min\, the one wall-ball block of the week):\n• 9 kg hea
+ vy wall balls: 3 x 10\n• 1 min rest between sets\n• Wall balls EMOM 10
+  min: 15 per minute\n\nBJJ in the evening: drilling and light rolls\n\nhtt
+ ps://andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Yasso 800s + BJJ
@@ -811,7 +772,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Easy 8 km + ankle/glute + BJJ
@@ -843,7 +804,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:HYROX second half\, full distance\, solo + pace test
@@ -856,33 +817,28 @@ DESCRIPTION:用时：65分钟\n\nHYROX：后半程，全距离，独自 +
  米（20公斤，目标4:30）\n7. 1公里跑\n8. 100个墙球（目标5:0
  0）\n\n配速测试：\n• 前三个1公里用4:50感觉可控：比赛
  配速定为4:50\n• 如果4:45也没问题：比赛目标改为4:45\n\n
- 放松：\n• 1公里慢跑\n• 拉伸\n\n晚上居家H1（20分钟，
- 减量周）：\n• 弹力带扩胸：2 x 15\n• 弹力带面拉：2 x 1
- 5\n• "no-money"外旋：2 x 12\n• 弹力带Y字静止：2 x 20秒\n\n
- 核心（2轮，每个动作30秒、休息20秒）：\n• 死虫\n• 左
- 右侧平板\n• 空心支撑\n• 弹力带Pallof抗旋推\n\n拉伸：\
- n• 世界最伟大伸展：每侧6次\n• 青蛙式摇摆：10次\n• 
- 穿针式：每侧6次\n\n—— English ——\nTime: 65 min\nWarm-up (15
-  min):\n• 2 km easy\n• 4 strides\n• 10 wall balls\n\nMain set: the s
- econd half of the race\, full distance\, solo\, no rest:\n1. 1 km run at 4
- :50\n2. Row 1\,000 m (target 4:30)\n3. 1 km run at 4:50\n4. Farmers carry 
- 200 m (2 x 24 kg\, target 1:45)\n5. 1 km run at 4:50\n6. Sandbag lunges 10
- 0 m (20 kg\, target 4:30)\n7. 1 km run\n8. 100 wall balls (target 5:00)\n\
- nPace test:\n• First three 1 km at 4:50 feel controlled: race pace is 4:
- 50\n• If 4:45 would have been fine: aim for 4:45\n\nCool-down:\n• 1 km
-  jog\n• Stretch\n\nHome H1 in the evening (20 min\, lighter week):\n• 
- Band pull-apart: 2 x 15\n• Band face pull: 2 x 15\n• No-money external
-  rotation: 2 x 12\n• Band Y hold: 2 x 20 s\n\nCore (2 rounds\, 30 s on /
-  20 s off):\n• Dead bug\n• Side plank\, each side\n• Hollow hold\n
- • Band Pallof press\n\nStretch:\n• World's greatest stretch: 6/side\n
- • Frog rocks: 10\n• Thread the needle: 6/side\n\nhttps://andyxuedct.gi
- thub.io/Training-Plan/
+ 放松：\n• 1公里慢跑\n• 拉伸\n\n晚上居家H1（10分钟，
+ 肩袖和拉伸，减量周）：\n• "no-money"外旋：2 x 12\n• 弹
+ 力带Y字静止：2 x 20秒\n\n拉伸：\n• 世界最伟大伸展：每
+ 侧6次\n• 青蛙式摇摆：10次\n• 穿针式：每侧6次\n\n——
+  English ——\nTime: 65 min\nWarm-up (15 min):\n• 2 km easy\n• 4 str
+ ides\n• 10 wall balls\n\nMain set: the second half of the race\, full di
+ stance\, solo\, no rest:\n1. 1 km run at 4:50\n2. Row 1\,000 m (target 4:3
+ 0)\n3. 1 km run at 4:50\n4. Farmers carry 200 m (2 x 24 kg\, target 1:45)\
+ n5. 1 km run at 4:50\n6. Sandbag lunges 100 m (20 kg\, target 4:30)\n7. 1 
+ km run\n8. 100 wall balls (target 5:00)\n\nPace test:\n• First three 1 k
+ m at 4:50 feel controlled: race pace is 4:50\n• If 4:45 would have been 
+ fine: aim for 4:45\n\nCool-down:\n• 1 km jog\n• Stretch\n\nHome H1 in 
+ the evening (10 min\, rotator cuff and stretch\, lighter week):\n• No-mo
+ ney external rotation: 2 x 12\n• Band Y hold: 2 x 20 s\n\nStretch:\n• 
+ World's greatest stretch: 6/side\n• Frog rocks: 10\n• Thread the needl
+ e: 6/side\n\nhttps://andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Swim + light upper body
@@ -894,24 +850,23 @@ DESCRIPTION:用时：45分钟\n\n游泳 + 轻量上肢\n游泳（15分钟
  机夹胸：2 x 15，休息60秒\n5. 半跪单臂绳索下拉：每侧 2 x
   10，休息60秒\n6. 坐姿哑铃推举：2 x 10，休息90秒\n7. 面拉
  ：2 x 15\n8. 过顶绳索臂屈伸 🏅 + 弯举：2 x 12，交替做\n\n
- 今天不做（明天测5公里）：\n• 引体向上第2天\n• 借力
- 推举、高翻接火箭推\n• 核心循环\n\n—— English ——\nTi
- me: 45 min\nSwim (15 min\, first):\n• About 400 m easy: 8 x 50 m\n• 20
-  s rest\n\nOptional upper body (30 min\, 2 sets\, 3 reps in reserve\, noth
- ing heavy):\n1. Flat DB press: 2 x 10\, 90 s rest\n2. Machine chest press 
- 🏅: 2 x 10\, 90 s rest\n3. Seated cable row: 2 x 12\, 90 s rest\n4. Pec 
- deck: 2 x 15\, 60 s rest\n5. Half-kneeling single-arm pulldown: 2 x 10 eac
- h\, 60 s rest\n6. Seated DB shoulder press: 2 x 10\, 90 s rest\n7. Face pu
- ll: 2 x 15\n8. Overhead rope extension 🏅 + curl: 2 x 12\, alternating\n
- \nSkip today (5K check tomorrow):\n• Pull-up Day 2\n• Push press\, cle
- an into thruster\n• Core circuit\n\nhttps://andyxuedct.github.io/Trainin
- g-Plan/
+ 今天不做（明天测5公里）：\n• 引体向上第2天\n• 核心
+ 和旋转\n\n—— English ——\nTime: 45 min\nSwim (15 min\, first):\n
+ • About 400 m easy: 8 x 50 m\n• 20 s rest\n\nOptional upper body (30 m
+ in\, 2 sets\, 3 reps in reserve\, nothing heavy):\n1. Flat DB press: 2 x 1
+ 0\, 90 s rest\n2. Machine chest press 🏅: 2 x 10\, 90 s rest\n3. Seated 
+ cable row: 2 x 12\, 90 s rest\n4. Pec deck: 2 x 15\, 60 s rest\n5. Half-kn
+ eeling single-arm pulldown: 2 x 10 each\, 60 s rest\n6. Seated DB shoulder
+  press: 2 x 10\, 90 s rest\n7. Face pull: 2 x 15\n8. Overhead rope extensi
+ on 🏅 + curl: 2 x 12\, alternating\n\nSkip today (5K check tomorrow):\n
+ • Pull-up Day 2\n• Core and rotation\n\nhttps://andyxuedct.github.io/T
+ raining-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:5K check
@@ -943,7 +898,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Wall-ball test + Gym B\, light
@@ -962,36 +917,36 @@ DESCRIPTION:用时：80分钟\n\n墙球测试 + B课（轻量）\n热身（
  腿硬拉上举：每条腿 2 x 8，休息60秒\n4. 北欧挺：2 x 5，
  休息90秒\n5. 腿屈伸（椅背后仰）🏅：2 x 12，休息60秒\n6.
   站姿杠铃提踵 2 x 10 + 屈膝提踵 2 x 15\n\n今天不做： 硬拉
- 、火箭推和药球\n\n晚上（可选，10分钟）：\n• 世界最
- 伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次\n• 俯卧
- 颈部系列：用瑜伽砖\n\n—— English ——\nTime: 80 min\nWarm-u
- p (20 min):\n• Easy row or ski: 5 min\n• World's greatest stretch: 5/s
- ide\n• 90/90 hip switches: 8/side\n• Band pull-apart 15 + no-money ext
- ernal rotation 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• R
- amp-up sets of the first lift: 2–3\n\nWall-ball test (first\, on fresh l
- egs so the result is fair):\n• Sandbag lunges: 50 m (20 kg)\n• Straigh
- t into 100 wall balls for time (6 kg\, 3.00 m)\n• Target: under 4:45\n
- • Sets: big and unbroken\, for example 25-25-20-15-15\n• Between sets:
-  only a few breaths\n• Record the time and your set breakdown\n\nAfter t
- he test\, light legs (35 min\, 2 reps in reserve):\n1. Paused front squat:
-  3 x 5\, 2–3 s at the bottom\, about 70% of max\, 2 min rest\n2. Bulgari
- an split squat: 2 x 8 each\, 90 s rest\n3. Single-leg RDL to press: 2 x 8 
- each\, 60 s rest\n4. Nordic curl: 2 x 5\, 90 s rest\n5. Leg extension\, se
- at reclined 🏅: 2 x 12\, 60 s rest\n6. Standing barbell calf raise 2 x 1
- 0 + bent-knee soleus raise 2 x 15\n\nSkip today: deadlift\, thrusters and 
- med ball\n\nEvening (optional\, 10 min):\n• World's greatest stretch: 5/
- side\n• 90/90 hip switches: 8/side\n• Prone neck series on a yoga bloc
- k\n\nhttps://andyxuedct.github.io/Training-Plan/
+ 和药球\n\n晚上（可选，10分钟）：\n• 世界最伟大伸展
+ ：每侧5次\n• 90/90髋部换边：每侧8次\n• 俯卧颈部系列
+ ：用瑜伽砖\n\n—— English ——\nTime: 80 min\nWarm-up (20 min):\
+ n• Easy row or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/
+ 90 hip switches: 8/side\n• Band pull-apart 15 + no-money external rotati
+ on 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets 
+ of the first lift: 2–3\n\nWall-ball test (first\, on fresh legs so the r
+ esult is fair):\n• Sandbag lunges: 50 m (20 kg)\n• Straight into 100 w
+ all balls for time (6 kg\, 3.00 m)\n• Target: under 4:45\n• Sets: big 
+ and unbroken\, for example 25-25-20-15-15\n• Between sets: only a few br
+ eaths\n• Record the time and your set breakdown\n\nAfter the test\, ligh
+ t legs (35 min\, 2 reps in reserve):\n1. Paused front squat: 3 x 5\, 2–3
+  s at the bottom\, about 70% of max\, 2 min rest\n2. Bulgarian split squat
+ : 2 x 8 each\, 90 s rest\n3. Single-leg RDL to press: 2 x 8 each\, 60 s re
+ st\n4. Nordic curl: 2 x 5\, 90 s rest\n5. Leg extension\, seat reclined 
+ 🏅: 2 x 12\, 60 s rest\n6. Standing barbell calf raise 2 x 10 + bent-kne
+ e soleus raise 2 x 15\n\nSkip today: deadlift and med ball\n\nEvening (opt
+ ional\, 10 min):\n• World's greatest stretch: 5/side\n• 90/90 hip swit
+ ches: 8/side\n• Prone neck series on a yoga block\n\nhttps://andyxuedct.
+ github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Pull-up test + Gym A + BJJ
-DESCRIPTION:用时：100分钟 + 柔术\n\n引体向上测试 + A课 + 柔
+DESCRIPTION:用时：85分钟 + 柔术\n\n引体向上测试 + A课 + 柔
  术\n热身（20分钟）：\n• 轻松划船或滑雪机：5分钟\n• 
  世界最伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次\n
  • 弹力带扩胸15次 + "no-money"外旋12次\n• 俯卧Y字举：2 x 
@@ -1000,39 +955,37 @@ DESCRIPTION:用时：100分钟 + 柔术\n\n引体向上测试 + A课 + 柔
  的最大次数，目标17到18个\n• 胸口贴杠、手肘往下拉、
  每次完全伸直\n• 休息3分钟再开始主训练\n• 今天不再
  做其他引体\n\n主训练（40分钟，4组，保留1到2次余力）
- ：\n1. 药球对墙旋转抛 ★：每侧 3 x 5，全力，休息60秒\n2
- . 上斜哑铃卧推 🏅（约45°）：4 x 6–8，休息2–3分钟\n3.
-  器械划船或杠铃划船：4 x 6–8，休息2分钟\n4. 负重双杠
- 臂屈伸（身体前倾）：3 x 6–10，休息2分钟\n5. 对握/V把
- 下拉：3 x 8–10，休息90秒\n6. 毛巾悬垂：2 x 力竭，休息90
- 秒\n\n墙球力量（15分钟）：\n• 9公斤重墙球：5 x 10\n• 
- 组间休息1分钟\n• 这是比赛前最后一次用9公斤球\n\n功
- 能性（20分钟）：\n• 5轮：25个墙球不间断 + 滑雪机250米
- 快速\n• 轮间休息1分钟\n\n晚上柔术： 技术练习和轻松
- 对练\n\n—— English ——\nTime: 100 min + BJJ\nWarm-up (20 min):\n
- • Easy row or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/9
- 0 hip switches: 8/side\n• Band pull-apart 15 + no-money external rotatio
- n 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets o
- f the first lift: 2–3\n\nPull-up test (first):\n• After the warm-up\, 
- one strict max set\, target 17–18\n• Chest to the bar\, drive the elbo
- ws down\, full hang every rep\n• Rest 3 min before the main work\n• No
-  more pull-ups today\n\nMain work (40 min\, 4 sets\, 1–2 reps in reserve
- ):\n1. Med-ball rotational throw against a wall ★: 3 x 5 per side\, all-
- out\, 60 s rest\n2. Incline DB press 🏅 (about 45°): 4 x 6–8\, 2–3 
- min rest\n3. Machine row or barbell row: 4 x 6–8\, 2 min rest\n4. Weight
- ed dips\, leaning forward: 3 x 6–10\, 2 min rest\n5. Neutral/V-grip pull
- down: 3 x 8–10\, 90 s rest\n6. Towel dead hang: 2 x max\, 90 s rest\n\nW
- all-ball strength (15 min):\n• 9 kg heavy wall balls: 5 x 10\n• 1 min 
- rest between sets\n• The last time with the 9 kg ball before the race\n\
- nFunctional (20 min):\n• 5 rounds: 25 wall balls unbroken + 250 m ski ha
- rd\n• 1 min rest between rounds\n\nBJJ in the evening: drilling and ligh
- t rolls\n\nhttps://andyxuedct.github.io/Training-Plan/
+ ：\n1. 上斜哑铃卧推 🏅（约45°）：4 x 6–8，休息2–3分
+ 钟\n2. 器械划船或杠铃划船：4 x 6–8，休息2分钟\n3. 负重
+ 双杠臂屈伸（身体前倾）：3 x 6–10，休息2分钟\n4. 对握/
+ V把下拉：3 x 8–10，休息90秒\n5. 毛巾悬垂：2 x 力竭，休
+ 息90秒\n\n功能性：墙球（25分钟，本周唯一的墙球课）：
+ \n• 9公斤重墙球：5 x 10\n• 组间休息1分钟\n• 这是比赛
+ 前最后一次用9公斤球\n• 5轮：每轮25个墙球不间断\n• 
+ 轮间休息1分钟\n\n晚上柔术： 技术练习和轻松对练\n\n—
+ — English ——\nTime: 85 min + BJJ\nWarm-up (20 min):\n• Easy row or
+  ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switches:
+  8/side\n• Band pull-apart 15 + no-money external rotation 12\n• Prone
+  Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lif
+ t: 2–3\n\nPull-up test (first):\n• After the warm-up\, one strict max 
+ set\, target 17–18\n• Chest to the bar\, drive the elbows down\, full 
+ hang every rep\n• Rest 3 min before the main work\n• No more pull-ups 
+ today\n\nMain work (40 min\, 4 sets\, 1–2 reps in reserve):\n1. Incline 
+ DB press 🏅 (about 45°): 4 x 6–8\, 2–3 min rest\n2. Machine row or 
+ barbell row: 4 x 6–8\, 2 min rest\n3. Weighted dips\, leaning forward: 3
+  x 6–10\, 2 min rest\n4. Neutral/V-grip pulldown: 3 x 8–10\, 90 s rest
+ \n5. Towel dead hang: 2 x max\, 90 s rest\n\nFunctional: wall balls (25 mi
+ n\, the one wall-ball block of the week):\n• 9 kg heavy wall balls: 5 x 
+ 10\n• 1 min rest between sets\n• The last time with the 9 kg ball befo
+ re the race\n• 5 rounds: 25 wall balls unbroken\n• 1 min rest between 
+ rounds\n\nBJJ in the evening: drilling and light rolls\n\nhttps://andyxued
+ ct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Intervals 4 x 1 km at new I + BJJ
@@ -1055,7 +1008,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Easy 12 km + ankle/glute + BJJ (light)
@@ -1087,7 +1040,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:FULL RACE SIMULATION with your partner
@@ -1134,11 +1087,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Gym C (3 sets) + swim
-DESCRIPTION:用时：90 + 15分钟\n\nC课（3组） + 游泳\n热身（20
+DESCRIPTION:用时：75 + 15分钟\n\nC课（3组） + 游泳\n热身（20
  分钟）：\n• 轻松划船或滑雪机：5分钟\n• 世界最伟大
  伸展：每侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩
  胸15次 + "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地
@@ -1148,51 +1101,44 @@ DESCRIPTION:用时：90 + 15分钟\n\nC课（3组） + 游泳\n热身（20
  秒\n3. 坐姿绳索划船：3 x 10–12，休息90秒\n4. 蝴蝶机夹胸
  ：3 x 12–15，休息60秒\n5. 半跪单臂绳索下拉：每侧 3 x 10
  –12，休息60秒\n6. 直臂绳索下压：2 x 12–15，休息60秒\n7.
-  坐姿哑铃推举：3 x 8–10，休息90秒\n\n墙球力量（10分钟
- ）：\n• 借力推举 ★：3 x 6，休息2分钟\n• 哑铃高翻接
- 火箭推 ★：3 x 8，休息90秒\n\n手臂和肩（10分钟）：\n1. 
- 面拉 + 弹力带扩胸：3 x 15 + 20，连着做，休息60秒\n2. 过
- 顶绳索臂屈伸 🏅 + 弯举：3 x 10–12，交替做，休息60秒\n
- 3. 绳索下压 + 锤式弯举：2 x 12，交替做，休息60秒\n\n引
- 体向上第2天：\n• 3组，每组做周一测试最大次数的60%\n
- • 例如最大18个就做11个\n\n功能性（15分钟，核心循环2
- 轮）：\n• 半跪绳索转体：每侧10次\n• 绳索伐木（高到
- 低）：每侧10次\n• Pallof抗旋推：每侧10次\n• 哥本哈根
- 侧桥 ★：每侧20秒\n• 杠铃片转体：20次\n• 死虫：每侧
- 10次\n• 抬腿卷腹：12次\n• 平板支撑：45秒\n\n然后做负
- 重和静蹲：\n• 单手提物行走：每只手 2 x 40米\n• 抱6公
- 斤墙球在胸前靠墙静蹲 ★：3 x 60秒\n\n游泳（15分钟，约4
- 00米轻松）：\n• 8 x 50米，每组休息20秒\n• 放松呼吸\n\n
- —— English ——\nTime: 90 + 15 min\nWarm-up (20 min):\n• Easy row 
- or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switche
- s: 8/side\n• Band pull-apart 15 + no-money external rotation 12\n• Pro
- ne Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first l
- ift: 2–3\n\nMain work (35 min\, 3 sets\, 2 reps in reserve):\n1. Flat DB
-  press: 3 x 10–12\, 90 s rest\n2. Machine chest press 🏅: 3 x 8–10\,
-  90 s rest\n3. Seated cable row: 3 x 10–12\, 90 s rest\n4. Pec deck: 3 x
-  12–15\, 60 s rest\n5. Half-kneeling single-arm pulldown: 3 x 10–12 ea
- ch\, 60 s rest\n6. Straight-arm cable pulldown: 2 x 12–15\, 60 s rest\n7
- . Seated DB shoulder press: 3 x 8–10\, 90 s rest\n\nWall-ball strength (
- 10 min):\n• Push press ★: 3 x 6\, 2 min rest\n• DB clean into thrust
- er ★: 3 x 8\, 90 s rest\n\nArms and shoulders (10 min):\n1. Face pull + 
- band pull-apart: 3 x 15 + 20\, back to back\, 60 s rest\n2. Overhead rope 
- extension 🏅 + curl: 3 x 10–12\, alternating\, 60 s rest\n3. Rope push
- down + hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-up Day 2:\n
- • 3 sets of 60% of Monday's max\n• For example 11 if your max was 18\n
- \nFunctional (15 min\, core circuit\, 2 rounds):\n• Half-kneeling cable 
- rotation: 10/side\n• Cable woodchop\, high to low: 10/side\n• Pallof p
- ress: 10/side\n• Copenhagen plank ★: 20 s/side\n• Plate twist: 20\n
- • Dead bug: 10/side\n• Leg-raise crunch: 12\n• Plank: 45 s\n\nThen c
- arry and wall sit:\n• Suitcase carry: 2 x 40 m per hand\n• Wall sit ho
- lding the 6 kg ball at your chest ★: 3 x 60 s\n\nSwim (15 min\, about 40
- 0 m easy):\n• 8 x 50 m\, 20 s rest\n• Relaxed breathing\n\nhttps://and
- yxuedct.github.io/Training-Plan/
+  坐姿哑铃推举：3 x 8–10，休息90秒\n\n手臂和肩（10分钟
+ ）：\n1. 面拉：3 x 15，休息60秒\n2. 过顶绳索臂屈伸 🏅 + 
+ 弯举：3 x 10–12，交替做，休息60秒\n3. 绳索下压 + 锤式
+ 弯举：2 x 12，交替做，休息60秒\n\n引体向上第2天：\n• 3
+ 组，每组做周一测试最大次数的60%\n• 例如最大18个就做
+ 11个\n\n功能性：核心和旋转（15分钟，本周唯一的核心课
+ ）：\n• 药球对墙旋转抛 ★（先做，全力）：每侧 2 x 5
+ ，休息60秒\n• 然后循环2轮：绳索伐木（高到低）每侧10
+ 次\n• Pallof抗旋推：每侧10次\n• 哥本哈根侧桥 ★：每
+ 侧20秒\n• 死虫：每侧10次\n• 抬腿卷腹：12次\n\n游泳（1
+ 5分钟，约400米轻松）：\n• 8 x 50米，每组休息20秒\n• 
+ 放松呼吸\n\n—— English ——\nTime: 75 + 15 min\nWarm-up (20 min)
+ :\n• Easy row or ski: 5 min\n• World's greatest stretch: 5/side\n• 9
+ 0/90 hip switches: 8/side\n• Band pull-apart 15 + no-money external rota
+ tion 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up set
+ s of the first lift: 2–3\n\nMain work (35 min\, 3 sets\, 2 reps in reser
+ ve):\n1. Flat DB press: 3 x 10–12\, 90 s rest\n2. Machine chest press 
+ 🏅: 3 x 8–10\, 90 s rest\n3. Seated cable row: 3 x 10–12\, 90 s rest
+ \n4. Pec deck: 3 x 12–15\, 60 s rest\n5. Half-kneeling single-arm pulldo
+ wn: 3 x 10–12 each\, 60 s rest\n6. Straight-arm cable pulldown: 2 x 12
+ –15\, 60 s rest\n7. Seated DB shoulder press: 3 x 8–10\, 90 s rest\n\n
+ Arms and shoulders (10 min):\n1. Face pull: 3 x 15\, 60 s rest\n2. Overhea
+ d rope extension 🏅 + curl: 3 x 10–12\, alternating\, 60 s rest\n3. Ro
+ pe pushdown + hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-up Day
+  2:\n• 3 sets of 60% of Monday's max\n• For example 11 if your max was
+  18\n\nFunctional: core and rotation (15 min\, the one core block of the w
+ eek):\n• Med-ball rotational throw against a wall ★ (first\, all-out):
+  2 x 5 per side\, 60 s rest\n• Then 2 rounds: cable woodchop\, high to l
+ ow\, 10/side\n• Pallof press: 10/side\n• Copenhagen plank ★: 20 s/si
+ de\n• Dead bug: 10/side\n• Leg-raise crunch: 12\n\nSwim (15 min\, abou
+ t 400 m easy):\n• 8 x 50 m\, 20 s rest\n• Relaxed breathing\n\nhttps:/
+ /andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Long run 18 km
@@ -1220,99 +1166,97 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Gym B
-DESCRIPTION:用时：105分钟\n\nB课\n热身（20分钟）：\n• 轻松
+DESCRIPTION:用时：90分钟\n\nB课\n热身（20分钟）：\n• 轻松
  划船或滑雪机：5分钟\n• 世界最伟大伸展：每侧5次\n• 
  90/90髋部换边：每侧8次\n• 弹力带扩胸15次 + "no-money"外
  旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳：2 x 20\n• 第
- 一个动作的递增热身组：2到3组\n\n主训练 + 墙球力量（55
+ 一个动作的递增热身组：2到3组\n\n主训练 + 墙球力量（50
  分钟，4组，保留1到2次余力）：\n1. 药球深蹲向上抛 ★
  （墙球力量）：5 x 5，全力，休息60秒\n2. 颈前深蹲 🏅 + 
  箱跳（墙球力量）：4 x 5，1RM的70–80%，每组做完马上接3
- 个箱跳，休息2–3分钟\n3. 杠铃火箭推 ★（墙球力量）：
- 4 x 8，45–50公斤，休息2分钟\n4. 保加利亚分腿蹲 ★：每
- 条腿 3 x 8，休息90秒\n5. 单腿硬拉上举 ★：每条腿 3 x 8，
- 休息60秒\n6. 弹力带臀推 ★：3 x 8–10，顶端停1秒，休息9
- 0秒\n7. 北欧挺 ★：3 x 5–6，下放越慢越好，休息90秒\n8. 
- 腿屈伸（椅背后仰）🏅：2 x 12–15，休息60秒\n9. 站姿杠
- 铃提踵 3 x 10 + 屈膝提踵（比目鱼肌）2 x 15，休息60秒\n\n
- 功能性（20分钟）：\n• 沙袋弓步：50米（20公斤）\n• 
- 墙球EMOM 10分钟：每分钟15个\n• 波比跳远：4 x 10个，休
- 息60秒\n\n晚上（可选，10分钟）：\n• 世界最伟大伸展：
- 每侧5次\n• 90/90髋部换边：每侧8次\n• 俯卧颈部系列：
- 用瑜伽砖\n\n—— English ——\nTime: 105 min\nWarm-up (20 min):\n
- • Easy row or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/9
- 0 hip switches: 8/side\n• Band pull-apart 15 + no-money external rotatio
- n 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets o
- f the first lift: 2–3\n\nMain work + wall-ball strength (55 min\, 4 sets
- \, 1–2 reps in reserve):\n1. Med-ball squat throw straight up ★ (wall-
- ball strength): 5 x 5\, all-out\, 60 s rest\n2. Front squat 🏅 + box jum
- ps (wall-ball strength): 4 x 5 at 70–80% of max\, 3 box jumps straight a
- fter each set\, 2–3 min rest\n3. Barbell thruster ★ (wall-ball strengt
- h): 4 x 8 at 45–50 kg\, 2 min rest\n4. Bulgarian split squat ★: 3 x 8 
- each\, 90 s rest\n5. Single-leg RDL to press ★: 3 x 8 each\, 60 s rest\n
- 6. Banded hip thrust ★: 3 x 8–10\, 1 s squeeze at the top\, 90 s rest\
- n7. Nordic curl ★: 3 x 5–6\, lower as slowly as you can\, 90 s rest\n8
- . Leg extension\, seat reclined 🏅: 2 x 12–15\, 60 s rest\n9. Standing
-  barbell calf raise 3 x 10 + bent-knee soleus raise 2 x 15\, 60 s rest\n\n
- Functional (20 min):\n• Sandbag lunges: 50 m (20 kg)\n• Wall balls EMO
- M 10 min: 15 per minute\n• Burpee broad jumps: 4 x 10\, 60 s rest\n\nEve
- ning (optional\, 10 min):\n• World's greatest stretch: 5/side\n• 90/90
-  hip switches: 8/side\n• Prone neck series on a yoga block\n\nhttps://an
- dyxuedct.github.io/Training-Plan/
+ 个箱跳，休息2–3分钟\n3. 保加利亚分腿蹲 ★：每条腿 3 
+ x 8，休息90秒\n4. 单腿硬拉上举 ★：每条腿 3 x 8，休息60
+ 秒\n5. 弹力带臀推 ★：3 x 8–10，顶端停1秒，休息90秒\n6.
+  北欧挺 ★：3 x 5–6，下放越慢越好，休息90秒\n7. 腿屈
+ 伸（椅背后仰）🏅：2 x 12–15，休息60秒\n8. 站姿杠铃提
+ 踵 3 x 10 + 屈膝提踵（比目鱼肌）2 x 15，休息60秒\n\n功能
+ 性：划船和农夫行走（20分钟，不做墙球、弓步和波比跳
+ 远，周一和周四已经练过）：\n• 4轮：划船机500米，比
+ 赛配速2:10–2:15/500米\n• 接农夫行走50米（2 x 24公斤）\n
+ • 轮间休息90秒\n\n晚上（可选，10分钟）：\n• 世界最
+ 伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次\n• 俯卧
+ 颈部系列：用瑜伽砖\n\n—— English ——\nTime: 90 min\nWarm-u
+ p (20 min):\n• Easy row or ski: 5 min\n• World's greatest stretch: 5/s
+ ide\n• 90/90 hip switches: 8/side\n• Band pull-apart 15 + no-money ext
+ ernal rotation 12\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• R
+ amp-up sets of the first lift: 2–3\n\nMain work + wall-ball strength (50
+  min\, 4 sets\, 1–2 reps in reserve):\n1. Med-ball squat throw straight 
+ up ★ (wall-ball strength): 5 x 5\, all-out\, 60 s rest\n2. Front squat 
+ 🏅 + box jumps (wall-ball strength): 4 x 5 at 70–80% of max\, 3 box ju
+ mps straight after each set\, 2–3 min rest\n3. Bulgarian split squat ★
+ : 3 x 8 each\, 90 s rest\n4. Single-leg RDL to press ★: 3 x 8 each\, 60 
+ s rest\n5. Banded hip thrust ★: 3 x 8–10\, 1 s squeeze at the top\, 90
+  s rest\n6. Nordic curl ★: 3 x 5–6\, lower as slowly as you can\, 90 s
+  rest\n7. Leg extension\, seat reclined 🏅: 2 x 12–15\, 60 s rest\n8. 
+ Standing barbell calf raise 3 x 10 + bent-knee soleus raise 2 x 15\, 60 s 
+ rest\n\nFunctional: row and farmers carry (20 min\; no wall balls\, lunges
+  or burpee broad jumps\, Monday and Thursday cover them):\n• 4 rounds: r
+ ow 500 m at race pace\, 2:10–2:15 /500 m\n• Straight into farmers carr
+ y 50 m (2 x 24 kg)\n• 90 s rest between rounds\n\nEvening (optional\, 10
+  min):\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/si
+ de\n• Prone neck series on a yoga block\n\nhttps://andyxuedct.github.io/
+ Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-30@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Gym A (cut by a third) + BJJ
-DESCRIPTION:用时：80分钟 + 柔术\n\nA课（减少三分之一） + 
+DESCRIPTION:用时：70分钟 + 柔术\n\nA课（减少三分之一） + 
  柔术\n热身（20分钟）：\n• 轻松划船或滑雪机：5分钟\n
  • 世界最伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次
  \n• 弹力带扩胸15次 + "no-money"外旋12次\n• 俯卧Y字举：2 
  x 12\n• 原地弹跳：2 x 20\n• 第一个动作的递增热身组：2
  到3组\n\n主训练（40分钟，减少三分之一：大动作3组，小
- 动作2组，重量不变，保留2次余力）：\n1. 药球对墙旋转
- 抛 ★：每侧 2 x 5，全力，休息60秒\n2. 引体向上 🏅（第1
- 天）：5 x 3–5，负重5到10公斤，休息2分钟\n3. 上斜哑铃
- 卧推 🏅（约45°）：3 x 6–8，休息2–3分钟\n4. 器械划船
- 或杠铃划船：3 x 6–8，休息2分钟\n5. 负重双杠臂屈伸（
- 身体前倾）：2 x 6–10，休息2分钟\n6. 对握/V把下拉：2 x 8
- –10，休息90秒\n7. 毛巾悬垂：1 x 力竭，休息90秒\n\n墙球
- 力量（15分钟）：\n• 6公斤坐箱墙球：3 x 10\n• 每次先
- 坐到箱子上再站起来抛\n• 组间休息1分钟\n• 从现在起
- 不再用9公斤球\n\n功能性（20分钟）：\n• 墙球EMOM 8分钟
- ：每分钟18个\n• 滑雪机：3 x 500米，比赛强度2:00，休息1
- 分钟\n\n晚上柔术： 轻松，以技术练习为主\n\n—— English
-  ——\nTime: 80 min + BJJ\nWarm-up (20 min):\n• Easy row or ski: 5 min
- \n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n
- • Band pull-apart 15 + no-money external rotation 12\n• Prone Y-raise:
-  2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\
- n\nMain work (40 min\, cut by a third: 3 sets on the big lifts\, 2 on the 
- small ones\, same weights\, 2 reps in reserve):\n1. Med-ball rotational th
- row against a wall ★: 2 x 5 per side\, all-out\, 60 s rest\n2. Pull-ups 
- 🏅 (Day 1): 5 x 3–5 with +5–10 kg\, 2 min rest\n3. Incline DB press 
- 🏅 (about 45°): 3 x 6–8\, 2–3 min rest\n4. Machine row or barbell r
- ow: 3 x 6–8\, 2 min rest\n5. Weighted dips\, leaning forward: 2 x 6–10
- \, 2 min rest\n6. Neutral/V-grip pulldown: 2 x 8–10\, 90 s rest\n7. Towe
- l dead hang: 1 x max\, 90 s rest\n\nWall-ball strength (15 min):\n• 6 kg
-  box wall balls: 3 x 10\n• Sit on a box before each throw\n• 1 min res
- t between sets\n• No 9 kg ball from now on\n\nFunctional (20 min):\n• 
- Wall balls EMOM 8 min: 18 per minute\n• SkiErg: 3 x 500 m at race effort
- \, 2:00\, 1 min rest\n\nBJJ in the evening: light\, mostly drilling\n\nhtt
- ps://andyxuedct.github.io/Training-Plan/
+ 动作2组，重量不变，保留2次余力）：\n1. 引体向上 🏅
+ （第1天）：5 x 3–5，负重5到10公斤，休息2分钟\n2. 上斜
+ 哑铃卧推 🏅（约45°）：3 x 6–8，休息2–3分钟\n3. 器械
+ 划船或杠铃划船：3 x 6–8，休息2分钟\n4. 负重双杠臂屈
+ 伸（身体前倾）：2 x 6–10，休息2分钟\n5. 对握/V把下拉
+ ：2 x 8–10，休息90秒\n6. 毛巾悬垂：1 x 力竭，休息90秒\n\
+ n功能性：墙球（25分钟，本周唯一的墙球课）：\n• 6公
+ 斤坐箱墙球：3 x 10\n• 每次先坐到箱子上再站起来抛\n•
+  组间休息1分钟\n• 从现在起不再用9公斤球\n• 墙球EMOM 
+ 8分钟：每分钟18个\n\n晚上柔术： 轻松，以技术练习为主
+ \n\n—— English ——\nTime: 70 min + BJJ\nWarm-up (20 min):\n• Easy
+  row or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip sw
+ itches: 8/side\n• Band pull-apart 15 + no-money external rotation 12\n
+ • Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the 
+ first lift: 2–3\n\nMain work (40 min\, cut by a third: 3 sets on the big
+  lifts\, 2 on the small ones\, same weights\, 2 reps in reserve):\n1. Pull
+ -ups 🏅 (Day 1): 5 x 3–5 with +5–10 kg\, 2 min rest\n2. Incline DB p
+ ress 🏅 (about 45°): 3 x 6–8\, 2–3 min rest\n3. Machine row or barb
+ ell row: 3 x 6–8\, 2 min rest\n4. Weighted dips\, leaning forward: 2 x 6
+ –10\, 2 min rest\n5. Neutral/V-grip pulldown: 2 x 8–10\, 90 s rest\n6.
+  Towel dead hang: 1 x max\, 90 s rest\n\nFunctional: wall balls (25 min\, 
+ the one wall-ball block of the week):\n• 6 kg box wall balls: 3 x 10\n
+ • Sit on a box before each throw\n• 1 min rest between sets\n• No 9 
+ kg ball from now on\n• Wall balls EMOM 8 min: 18 per minute\n\nBJJ in th
+ e evening: light\, mostly drilling\n\nhttps://andyxuedct.github.io/Trainin
+ g-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Intervals 5 x 1 km at 4:00–4:05 + BJJ
@@ -1334,7 +1278,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-02@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Easy 10 km + ankle/glute + BJJ (light)
@@ -1366,7 +1310,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-03@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:HYROX race-pace sharpener
@@ -1379,38 +1323,33 @@ DESCRIPTION:用时：50分钟\n\nHYROX：比赛配速强化课\n热身（15
  ）\n3. 第3轮：1公里比赛配速，然后划船机500米全力\n4. 
  第4轮：1公里比赛配速，然后30个墙球不间断\n\n要点：\n
  • 量少、强度高\n• 每个站点都按比赛强度\n\n放松：\n
- • 1公里慢跑\n• 今天跑步一共约6公里\n\n晚上居家H1（20
- 分钟，减量周）：\n• 弹力带扩胸：2 x 15\n• 弹力带面
- 拉：2 x 15\n• "no-money"外旋：2 x 12\n• 弹力带Y字静止：2 x
-  20秒\n\n核心（2轮，每个动作30秒、休息20秒）：\n• 死
- 虫\n• 左右侧平板\n• 空心支撑\n• 弹力带Pallof抗旋推\n
- \n拉伸：\n• 世界最伟大伸展：每侧6次\n• 青蛙式摇摆
- ：10次\n• 穿针式：每侧6次\n\n—— English ——\nTime: 50 mi
- n\nWarm-up (15 min):\n• 2 km easy\n• 4 strides\n• Ski 100 m\n• Sle
- d push and pull: one length each\n• 10 wall balls\n\nMain set: 4 rounds\
- , 2 min rest between:\n1. Round 1: 1 km at race pace (4:45–4:50\, or wha
- t W5 told us)\, then ski 500 m all-out\n2. Round 2: 1 km at race pace\, th
- en sled push 25 m + sled pull 25 m (race weight)\n3. Round 3: 1 km at race
-  pace\, then row 500 m all-out\n4. Round 4: 1 km at race pace\, then 30 wa
- ll balls unbroken\n\nCues:\n• Low volume\, high intensity\n• Race effo
- rt on every station\n\nCool-down:\n• 1 km jog\n• About 6 km of running
-  in total\n\nHome H1 in the evening (20 min\, lighter week):\n• Band pul
- l-apart: 2 x 15\n• Band face pull: 2 x 15\n• No-money external rotatio
- n: 2 x 12\n• Band Y hold: 2 x 20 s\n\nCore (2 rounds\, 30 s on / 20 s of
- f):\n• Dead bug\n• Side plank\, each side\n• Hollow hold\n• Band P
- allof press\n\nStretch:\n• World's greatest stretch: 6/side\n• Frog ro
- cks: 10\n• Thread the needle: 6/side\n\nhttps://andyxuedct.github.io/Tra
- ining-Plan/
+ • 1公里慢跑\n• 今天跑步一共约6公里\n\n晚上居家H1（10
+ 分钟，肩袖和拉伸，减量周）：\n• "no-money"外旋：2 x 12\
+ n• 弹力带Y字静止：2 x 20秒\n\n拉伸：\n• 世界最伟大伸
+ 展：每侧6次\n• 青蛙式摇摆：10次\n• 穿针式：每侧6次\
+ n\n—— English ——\nTime: 50 min\nWarm-up (15 min):\n• 2 km easy\n
+ • 4 strides\n• Ski 100 m\n• Sled push and pull: one length each\n•
+  10 wall balls\n\nMain set: 4 rounds\, 2 min rest between:\n1. Round 1: 1 
+ km at race pace (4:45–4:50\, or what W5 told us)\, then ski 500 m all-ou
+ t\n2. Round 2: 1 km at race pace\, then sled push 25 m + sled pull 25 m (r
+ ace weight)\n3. Round 3: 1 km at race pace\, then row 500 m all-out\n4. Ro
+ und 4: 1 km at race pace\, then 30 wall balls unbroken\n\nCues:\n• Low v
+ olume\, high intensity\n• Race effort on every station\n\nCool-down:\n
+ • 1 km jog\n• About 6 km of running in total\n\nHome H1 in the evening
+  (10 min\, rotator cuff and stretch\, lighter week):\n• No-money externa
+ l rotation: 2 x 12\n• Band Y hold: 2 x 20 s\n\nStretch:\n• World's gre
+ atest stretch: 6/side\n• Frog rocks: 10\n• Thread the needle: 6/side\n
+ \nhttps://andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Gym C (cut by a third) + swim
-DESCRIPTION:用时：65 + 15分钟\n\nC课（减少三分之一） + 游泳
+DESCRIPTION:用时：50 + 15分钟\n\nC课（减少三分之一） + 游泳
  \n热身（20分钟）：\n• 轻松划船或滑雪机：5分钟\n• 世
  界最伟大伸展：每侧5次\n• 90/90髋部换边：每侧8次\n• 
  弹力带扩胸15次 + "no-money"外旋12次\n• 俯卧Y字举：2 x 12\n
@@ -1421,49 +1360,42 @@ DESCRIPTION:用时：65 + 15分钟\n\nC课（减少三分之一） + 游泳
  –12，休息90秒\n4. 蝴蝶机夹胸：2 x 12–15，休息60秒\n5. 
  半跪单臂绳索下拉：每侧 2 x 10–12，休息60秒\n6. 直臂绳
  索下压：2 x 12–15，休息60秒\n7. 坐姿哑铃推举：2 x 8–10
- ，休息90秒\n\n墙球力量（10分钟）：\n• 借力推举 ★：2 
- x 6，休息2分钟\n• 哑铃高翻接火箭推 ★：2 x 8，休息90
- 秒\n\n手臂和肩（10分钟）：\n1. 面拉 + 弹力带扩胸：2 x 15
-  + 20，连着做，休息60秒\n2. 过顶绳索臂屈伸 🏅 + 弯举：
- 2 x 10–12，交替做，休息60秒\n3. 绳索下压 + 锤式弯举：2 
- x 12，交替做，休息60秒\n\n引体向上第2天：\n• 3组，每
- 组为最大次数的60%\n\n功能性（15分钟，核心循环2轮）：\
- n• 半跪绳索转体：每侧10次\n• 绳索伐木（高到低）：
- 每侧10次\n• Pallof抗旋推：每侧10次\n• 哥本哈根侧桥 ★
- ：每侧20秒\n• 杠铃片转体：20次\n• 死虫：每侧10次\n•
-  抬腿卷腹：12次\n• 平板支撑：45秒\n\n然后做负重和静
- 蹲：\n• 单手提物行走：每只手 1 x 40米\n• 抱6公斤墙球
- 在胸前靠墙静蹲 ★：2 x 60秒\n\n游泳（15分钟，约400米轻
- 松）：\n• 8 x 50米，每组休息20秒\n• 放松呼吸\n\n—— E
- nglish ——\nTime: 65 + 15 min\nWarm-up (20 min):\n• Easy row or ski: 
- 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switches: 8/sid
- e\n• Band pull-apart 15 + no-money external rotation 12\n• Prone Y-rai
- se: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2
- –3\n\nMain work (35 min\, cut by a third: 2 sets each\, same weights):\n
- 1. Flat DB press: 2 x 10–12\, 90 s rest\n2. Machine chest press 🏅: 2 
- x 8–10\, 90 s rest\n3. Seated cable row: 2 x 10–12\, 90 s rest\n4. Pec
-  deck: 2 x 12–15\, 60 s rest\n5. Half-kneeling single-arm pulldown: 2 x 
- 10–12 each\, 60 s rest\n6. Straight-arm cable pulldown: 2 x 12–15\, 60
-  s rest\n7. Seated DB shoulder press: 2 x 8–10\, 90 s rest\n\nWall-ball 
- strength (10 min):\n• Push press ★: 2 x 6\, 2 min rest\n• DB clean i
- nto thruster ★: 2 x 8\, 90 s rest\n\nArms and shoulders (10 min):\n1. Fa
- ce pull + band pull-apart: 2 x 15 + 20\, back to back\, 60 s rest\n2. Over
- head rope extension 🏅 + curl: 2 x 10–12\, alternating\, 60 s rest\n3.
-  Rope pushdown + hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-up 
- Day 2:\n• 3 sets at 60% of your max\n\nFunctional (15 min\, core circuit
- \, 2 rounds):\n• Half-kneeling cable rotation: 10/side\n• Cable woodch
- op\, high to low: 10/side\n• Pallof press: 10/side\n• Copenhagen plank
-  ★: 20 s/side\n• Plate twist: 20\n• Dead bug: 10/side\n• Leg-raise
-  crunch: 12\n• Plank: 45 s\n\nThen carry and wall sit:\n• Suitcase car
- ry: 1 x 40 m per hand\n• Wall sit holding the 6 kg ball at your chest 
- ★: 2 x 60 s\n\nSwim (15 min\, about 400 m easy):\n• 8 x 50 m\, 20 s re
- st\n• Relaxed breathing\n\nhttps://andyxuedct.github.io/Training-Plan/
+ ，休息90秒\n\n手臂和肩（10分钟）：\n1. 面拉：2 x 15，休
+ 息60秒\n2. 过顶绳索臂屈伸 🏅 + 弯举：2 x 10–12，交替做
+ ，休息60秒\n3. 绳索下压 + 锤式弯举：2 x 12，交替做，休
+ 息60秒\n\n引体向上第2天：\n• 3组，每组为最大次数的60%
+ \n\n功能性：核心和旋转（15分钟，本周唯一的核心课）
+ ：\n• 药球对墙旋转抛 ★（先做，全力）：每侧 2 x 5，
+ 休息60秒\n• 然后循环2轮：绳索伐木（高到低）每侧10次
+ \n• Pallof抗旋推：每侧10次\n• 哥本哈根侧桥 ★：每侧20
+ 秒\n• 死虫：每侧10次\n• 抬腿卷腹：12次\n\n游泳（15分
+ 钟，约400米轻松）：\n• 8 x 50米，每组休息20秒\n• 放松
+ 呼吸\n\n—— English ——\nTime: 50 + 15 min\nWarm-up (20 min):\n•
+  Easy row or ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 h
+ ip switches: 8/side\n• Band pull-apart 15 + no-money external rotation 1
+ 2\n• Prone Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of t
+ he first lift: 2–3\n\nMain work (35 min\, cut by a third: 2 sets each\, 
+ same weights):\n1. Flat DB press: 2 x 10–12\, 90 s rest\n2. Machine ches
+ t press 🏅: 2 x 8–10\, 90 s rest\n3. Seated cable row: 2 x 10–12\, 9
+ 0 s rest\n4. Pec deck: 2 x 12–15\, 60 s rest\n5. Half-kneeling single-ar
+ m pulldown: 2 x 10–12 each\, 60 s rest\n6. Straight-arm cable pulldown: 
+ 2 x 12–15\, 60 s rest\n7. Seated DB shoulder press: 2 x 8–10\, 90 s re
+ st\n\nArms and shoulders (10 min):\n1. Face pull: 2 x 15\, 60 s rest\n2. O
+ verhead rope extension 🏅 + curl: 2 x 10–12\, alternating\, 60 s rest\
+ n3. Rope pushdown + hammer curl: 2 x 12\, alternating\, 60 s rest\n\nPull-
+ up Day 2:\n• 3 sets at 60% of your max\n\nFunctional: core and rotation 
+ (15 min\, the one core block of the week):\n• Med-ball rotational throw 
+ against a wall ★ (first\, all-out): 2 x 5 per side\, 60 s rest\n• Then
+  2 rounds: cable woodchop\, high to low\, 10/side\n• Pallof press: 10/si
+ de\n• Copenhagen plank ★: 20 s/side\n• Dead bug: 10/side\n• Leg-ra
+ ise crunch: 12\n\nSwim (15 min\, about 400 m easy):\n• 8 x 50 m\, 20 s r
+ est\n• Relaxed breathing\n\nhttps://andyxuedct.github.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Long run 14 km
@@ -1490,44 +1422,44 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Gym B\, light
-DESCRIPTION:用时：65分钟\n\nB课（轻量）\n热身（20分钟）：\
+DESCRIPTION:用时：60分钟\n\nB课（轻量）\n热身（20分钟）：\
  n• 轻松划船或滑雪机：5分钟\n• 世界最伟大伸展：每
  侧5次\n• 90/90髋部换边：每侧8次\n• 弹力带扩胸15次 + "n
  o-money"外旋12次\n• 俯卧Y字举：2 x 12\n• 原地弹跳：2 x 20
  \n• 第一个动作的递增热身组：2到3组\n\n主训练（30分钟
  ，轻量，2组）：\n1. 箱跳：3 x 3，每次完全落稳，休息60
  秒\n2. 颈前深蹲：2 x 3，平时的重量，保留3次余力，休息
- 2–3分钟\n3. 杠铃片火箭推（15公斤）：2 x 15，休息90秒\n4
- . 保加利亚分腿蹲：每条腿 2 x 8，休息90秒\n5. 单腿硬拉
- 上举：每条腿 2 x 8，休息60秒\n6. 腿屈伸（椅背后仰）：2
-  x 12\n7. 站姿杠铃提踵：2 x 10\n\n今天不做： 硬拉和北欧
- 挺\n\n功能性（10分钟）： 墙球EMOM 8分钟，每分钟15个\n\n
- 晚上（可选，10分钟）：\n• 世界最伟大伸展：每侧5次\n
- • 90/90髋部换边：每侧8次\n• 俯卧颈部系列：用瑜伽砖\
- n\n—— English ——\nTime: 65 min\nWarm-up (20 min):\n• Easy row or
-  ski: 5 min\n• World's greatest stretch: 5/side\n• 90/90 hip switches:
-  8/side\n• Band pull-apart 15 + no-money external rotation 12\n• Prone
-  Y-raise: 2 x 12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lif
- t: 2–3\n\nMain work (30 min\, light\, 2 sets):\n1. Box jumps: 3 x 3\, st
- ick every landing\, 60 s rest\n2. Front squat: 2 x 3 at normal weight\, 3 
- reps in reserve\, 2–3 min rest\n3. Plate thruster (15 kg): 2 x 15\, 90 s
-  rest\n4. Bulgarian split squat: 2 x 8 each\, 90 s rest\n5. Single-leg RDL
-  to press: 2 x 8 each\, 60 s rest\n6. Leg extension\, seat reclined: 2 x 1
- 2\n7. Standing barbell calf raise: 2 x 10\n\nSkip today: deadlift and Nord
- ics\n\nFunctional (10 min): wall balls EMOM 8 min\, 15 per minute\n\nEveni
- ng (optional\, 10 min):\n• World's greatest stretch: 5/side\n• 90/90 h
- ip switches: 8/side\n• Prone neck series on a yoga block\n\nhttps://andy
- xuedct.github.io/Training-Plan/
+ 2–3分钟\n3. 保加利亚分腿蹲：每条腿 2 x 8，休息90秒\n4. 
+ 单腿硬拉上举：每条腿 2 x 8，休息60秒\n5. 腿屈伸（椅背
+ 后仰）：2 x 12\n6. 站姿杠铃提踵：2 x 10\n\n今天不做： 硬
+ 拉和北欧挺\n\n功能性（10分钟）：\n• 2轮：划船机500米
+ 比赛配速 + 农夫行走50米\n• 轮间休息90秒\n\n晚上（可选
+ ，10分钟）：\n• 世界最伟大伸展：每侧5次\n• 90/90髋部
+ 换边：每侧8次\n• 俯卧颈部系列：用瑜伽砖\n\n—— Engli
+ sh ——\nTime: 60 min\nWarm-up (20 min):\n• Easy row or ski: 5 min\n
+ • World's greatest stretch: 5/side\n• 90/90 hip switches: 8/side\n• 
+ Band pull-apart 15 + no-money external rotation 12\n• Prone Y-raise: 2 x
+  12\n• Pogo hops: 2 x 20\n• Ramp-up sets of the first lift: 2–3\n\nM
+ ain work (30 min\, light\, 2 sets):\n1. Box jumps: 3 x 3\, stick every lan
+ ding\, 60 s rest\n2. Front squat: 2 x 3 at normal weight\, 3 reps in reser
+ ve\, 2–3 min rest\n3. Bulgarian split squat: 2 x 8 each\, 90 s rest\n4. 
+ Single-leg RDL to press: 2 x 8 each\, 60 s rest\n5. Leg extension\, seat r
+ eclined: 2 x 12\n6. Standing barbell calf raise: 2 x 10\n\nSkip today: dea
+ dlift and Nordics\n\nFunctional (10 min):\n• 2 rounds: row 500 m at race
+  pace + farmers carry 50 m\n• 90 s rest between rounds\n\nEvening (optio
+ nal\, 10 min):\n• World's greatest stretch: 5/side\n• 90/90 hip switch
+ es: 8/side\n• Prone neck series on a yoga block\n\nhttps://andyxuedct.gi
+ thub.io/Training-Plan/
 URL:https://andyxuedct.github.io/Training-Plan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-07@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Gym A\, light + BJJ light
@@ -1554,7 +1486,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:3 x 1 km at race pace + 30 wall balls
@@ -1576,7 +1508,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Easy 30 min
@@ -1591,7 +1523,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-10@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Rest
@@ -1606,7 +1538,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:RACE HYROX Mixed Doubles\, Stockholm
@@ -1619,7 +1551,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Recovery
@@ -1631,7 +1563,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-13@andy-training-plan
-DTSTAMP:20261027T135108Z
+DTSTAMP:20261101T131043Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Recovery
