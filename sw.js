@@ -1,6 +1,6 @@
 // Network first for the app's own files, so plan updates show up as soon as
 // the phone is online; the cache is the offline fallback.
-const VERSION = 'v20261101145919';
+const VERSION = 'v20261107221258';
 const CACHE = 'tp-' + VERSION;
 const FONTS = 'tp-fonts';
 const SHELL = [
